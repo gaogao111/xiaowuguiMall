@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="../css/common/common.css">
+    <link rel="stylesheet" href="../css/personalCenter.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1588992_hyprsp9qrht.css">
+
+    <script src="../plugin/jquery.js"></script>
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="../swiper/select.js"></script>
+    <style>
+        select{
+            width: 120px;
+            display: inline-block;
+            height: 32px;
+            padding: 0 13px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="header"></div>
+<div class="wrap">
+    <div class="content w1200">
+        <div class="contentLeft">
+            <div class="memberCenter">
+                <i class="iconfont icon-zhucedengluyonghuming"></i>
+                会员中心
+            </div>
+            <ul class="aboutMe">
+                <li class="li1 type">我的账户</li>
+                <li class="li2">个人信息</li>
+                <li class="li3">地址簿</li>
+                <li class="li4">积分</li>
+                <li class="li5">优惠券</li>
+            </ul>
+            <div class="orderInformation">
+                <i class="iconfont icon-l-order"></i>订单信息
+            </div>
+            <ul class="aboutOrderList">
+                <li class="li6">我的订单</li>
+                <li class="li7">我的退换货</li>
+            </ul>
+        </div>
+        <div class="contentRight">
+            <div class="myAccount">
+                <div class="title">我的账户</div>
+                <div class="accountInformation">
+                    <div class="call">您好， <i>156****8309</i>
+                        <span>退出登录</span>
+                    </div>
+                    <p class="welcome">欢迎光临Gap中国官网</p>
+                    <div>尊敬的蓝卡会员</div>
+                    <p class="thanksFor">感谢成为我们的蓝卡会员，您可点击查看 <a href="">会员权益</a></p>
+                    <div class="duihao">
+                        <div class="left"><i class="iconfont icon-duihao"></i></div>
+                        <div class="middle"></div>
+                        <span class="right"></span>
+                    </div>
+                    <div class="memberUp">
+                        <span>蓝卡会员</span>
+                        您再消费 <span>￥1，200.00</span>可升级 银卡会员
+                    </div>
+                    <div class="numberCard">
+                        <div class="front">
+                            <img src="https://gap-cn-node.oss-cn-shanghai.aliyuncs.com/casaba_plus_assets/prod-2020.2.14-1/static/gap-vip1@2x.7c5df525945bc32b474ce2fd76497981.png" alt="">
+                            <div class="cardInfo">
+                                <span>156****8309 IS VIP BLUE</span>
+                                <P>查看二维码</P>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <span>156****8309 IS VIP BLUE</span>
+                            <div class="pic">
+                                <img src="../img/erweima.png" alt="">
+                            </div>
+                            <p>序列号：1120021700007692</p>
+                            <div>查看会员</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li class="personalInfo">
+                            <span class="icon"> <i content="iconfont icon-gerenxinxi"></i></span>
+                            <span>
+                            <p>个人信息</p>
+                            <p>156****8309</p>
+                        </span>
+                        </li>
+                        <li class="address">
+                            <span class="icon"> <i content="iconfont icon-dizhibu"></i></span>
+                            <span>
+                            <p>地址簿</p>
+                            <p> <i>0</i>个</p>
+                        </span>
+                        </li>
+                        <li class="integration">
+                            <span class="icon"> <i content="iconfont icon-jifen"></i></span>
+                            <span>
+                            <p>积分</p>
+                            <p> <i>0</i>积分</p>
+                        </span>
+                        </li>
+                        <li class="disCoupon">
+                            <span class="icon"> <i content="iconfont icon-weibiaoti2fuzhi02"></i></span>
+                            <span>
+                            <p>优惠券</p>
+                            <p>  <i>1</i>张</p>
+                        </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="aboutMe">
+                    <span class="my title">我的订单</span>
+                    <span class="ret title">我的退换货</span>
+                    <div class="myOrder">
+                        <div class="orderProd">
+                            <div class="aboutOrder">
+                                <span class="orderNum">订单编号：<i>120021916152309957</i></span>
+                                <span class="orderTime" style="margin-left: 16px;">下单时间：2020/02/19 16：15：23</span>
+                                <span style="margin-left: 225px;">共 <i>1</i>件商品</span>
+                                <span style="margin-left: 8px">订单金额 <i>￥174.50</i></span>
+                            </div>
+                            <div class="img">
+                                <img src="https://uxresources.baozun.com/prod/88000136/20200204/A83D931866E30E84D7128A3785936407.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                            </div>
+                            <div class="info">
+                                <p>Gap</p>
+                                <p class="name">男装|创意徽标LOGO毛圈布内里套头卫衣</p>
+                                <p class="model">抹茶绿、185/104A（L）</p>
+                                <div>
+                                    <span>￥174.50</span>
+                                    <span style="color: #999999;text-decoration: line-through">￥349.00</span>
+                                    <span style="color: #999999;margin-left: 8px">x1</span>
+                                </div>
+                            </div>
+                            <div class="r_float status">
+                                <p>待支付</p>
+                                <button>立即支付</button>
+                                <span>查看订单详情</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="return">
+                        <div>
+                            您的账户还没有退换货记录
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="personInfo">
+                <div class="title">个人信息</div>
+                <div class="accountInfo">
+                    <p class="title">账户信息</p>
+                    <p class="phone">手机号： <i>156****8309</i></p>
+                    <span>
+                        <span class="littleIcon"><i class="iconfont &#xe685;"></i></span>
+                        <span class="change">修改密码</span>
+                    </span>
+                </div>
+                <div class="personData">
+                    <div class="title">
+                        个人资料
+                        <span>*完善生日信息可获得积分</span>
+                    </div>
+                    <div class="userName">
+                        <span>
+                            用户名
+                            <span class="tip">（一旦确认无法修改）</span>
+                        </span>
+                        <br>
+                        <input type="text"placeholder="请输入您的用户名">
+                    </div>
+                    <div class="sex">
+                        <span>
+                            性别
+                            <span class="tip">（一旦确认无法修改）</span>
+                        </span>
+                        <br>
+                        <span class="choose">
+                            <span class="woman">  <input type="checkbox" name="sex">女性</span>
+                            <span class="man">  <input type="checkbox" name="sex">男性</span>
+                        </span>
+                    </div>
+                    <div class="birthday">
+                        <div class="title">
+                            生日 <span class="tip">（一旦确认无法修改）</span>
+                        </div>
+                        <div id="date">
+                            <select name="year" id="year">
+                                <option value="">选择年份</option>
+                            </select>
+                            <select name="month" id="month">
+                                <option value="">选择月份</option>
+                            </select>
+                            <select id="days" class="day">
+                                <option value="">选择日期</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="address">
+                <div class="title">地址簿</div>
+                <div class="detailAdd">
+                    <div class="title">
+                        <span class="receiver">收件人</span>
+                        <span class="location">地址</span>
+                        <span class="cellPhone">手机号</span>
+                        <span class="handle">操作</span>
+                    </div>
+                    <div class="message">
+                        <span class="default">
+                            <input type="radio">默认地址
+                        </span>
+                        <span class="name">保密</span>
+                        <span class="location">河南省漯河市乱七八糟一大堆</span>
+                        <span class="cell">13683759426</span>
+                        <span class="operate">
+                            <span class="edit">
+                                <i class="iconfont &#xe685;"></i>编辑
+                            </span>
+                            <span class="delete">
+                                <i class="iconfont &#xe626;"></i>删除
+                            </span>
+                        </span>
+                    </div>
+                    <button>新增收货地址</button>
+                </div>
+            </div>
+            <div class="integral">
+                <div class="title">
+                    积分
+                    <span>查看积分规则</span>
+                </div>
+                <div class="text">
+                    <div class="current">
+                        <span style="font-size: 18px;color: #333333;margin-right: 10px">当前可用积分 <b>0</b></span> 本月底即将过期 <i>0</i>积分
+                        <button>如何获得积分？</button>
+                    </div>
+                    <div class="tip">*您可重新登录账号，查看最新积分</div>
+                    <div class="record">
+                        <div class="title">
+                            <span class="record1 col">全部记录</span>
+                            <span class="record2">获取记录</span>
+                            <span class="record3">使用记录</span>
+                        </div>
+                        <div class="con con1">暂无积分记录!</div>
+                        <div class="con con2 active">暂无积分记录!!</div>
+                        <div class="con con3 active">暂无积分记录!!!</div>
+                    </div>
+                </div>
+            </div>
+            <div class="youHuiQuan">
+                <div class="title">优惠券</div>
+                <div class="coupons">
+                    <span class="officialWeb col">官网优惠券  （ <i>1</i>张）</span>
+                    <span class="universal">门店官网通用优惠券 （ <i>0</i>张）</span>
+                </div>
+                <div class="use">
+                    <span class="canBeUse col">可使用</span>
+                    <span class="toBeUsed">已使用</span>
+                    <span class="rule">优惠券使用规则</span>
+                </div>
+                <div class="componBox componBox1">
+                    <div class="compon use1">
+                        <div class="componTop">
+                            <div class="price">
+                                ￥ <b>10</b>
+                                <span>满减券</span>
+                            </div>
+                            <p class="componName">新会员欢迎礼券</p>
+                            <p class="validity">有效期：2012.02.17 - 2020.03.02</p>
+                        </div>
+                        <div class="componBtm">
+                            <div class="state">优惠说明： <i>满11.00减10.00</i></div>
+                            <div class="numberOfUse">可使用次数：<i>1次（已使用 <i>0</i>次）</i></div>
+                            <button>优惠券详情</button>
+                        </div>
+                    </div>
+                    <div class="used1">
+                        暂无优惠券
+                    </div>
+                </div>
+                <div class="componBox2 ">
+                    <div class="use2">
+                        暂无优惠券
+                    </div>
+                    <div class="used2">
+                        暂无优惠券
+                    </div>
+                </div>
+            </div>
+            <div class="myOrder">
+                <div class="title">
+                    我的订单
+                </div>
+                <div class="aboutOrderSta">
+                    <span class="col1">全部订单</span>
+                    <span>待支付</span>
+                    <span>待发货</span>
+                    <span>待收货</span>
+                    <span>已完成</span>
+                </div>
+                <div class="listItem">
+                    <div class="item">
+                        <div class="itemLeft l_float">
+                            <div class="sequence">
+                                <span>订单编号:120021916152309957</span>
+                                <span>下单时间:2020/02/19 16:15:23</span>
+                            </div>
+                            <div class="itemDetail">
+                                <div class="tupian">
+                                    <img src="https://uxresources.baozun.com/prod/88000136/20200204/A83D931866E30E84D7128A3785936407.jpg?x-oss-process=image/resize,m_fill,w_250,h_325" alt="">
+                                </div>
+                                <div class="itemInfo">
+                                    <p>Gap</p>
+                                    <p>男装|创意徽标LOGO毛圈布内里套头毛衣</p>
+                                    <span style="margin-bottom: 20px">抹茶绿、185/104A</span>
+                                    <br>
+                                    <span>
+                                        <i>￥174.50</i>
+                                        <i>￥349.00</i>
+                                        <i>x1</i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="itemRight r_float">
+                            <div class="top">
+                                <span>共1件商品</span>
+                                <span>订单金额：￥174.50</span>
+                            </div>
+                            <div class="canceled">已取消</div>
+                            <div class="examine">查看订单详情</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="youHuiQuan mytuihuanhuo">
+                <div class="title">我的退换货</div>
+                <div class="coupons">
+                    <span class="officialWeb col">退货订单</span>
+                    <span class="universal">换货订单</span>
+                </div>
+                <div class="use">
+                    <span class="canBeUse col">处理中</span>
+                    <span class="toBeUsed">已完成</span>
+                </div>
+                <div class="componBox componBox1">
+                    <div class="compon use1">
+                        您的账户还没有记录
+                    </div>
+                    <div class="used1">
+                        您的账户还没有记录
+                    </div>
+                </div>
+                <div class="componBox2 ">
+                    <div class="use2">
+                        您的账户还没有记录
+                    </div>
+                    <div class="used2">
+                        您的账户还没有记录
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>
+
+<script>
+    $("#header").load("../common/header.html")
+    $("#footer").load("../common/footer.html")
+    
+    
+    $(".my").click(function () {
+        $(this).css("background","white")
+        $(".myOrder").css("display","block")
+        $(".return").css("display","none")
+        $(".ret").css("background","#f9f9f9")
+    })
+
+    $(".ret").click(function () {
+        $(this).css("background","white")
+        $(".return").css("display","block")
+        $(".myOrder").css("display","none")
+        $(".my").css("background","#f9f9f9")
+    })
+
+
+
+
+    $(function(){
+        $("#date").selectDate()
+
+        $("#days").focusout(function(){
+            var year = $("#year option:selected").html()
+            var month = $("#month option:selected").html()
+            var day = $("#days option:selected").html()
+            console.log(year+month+day)
+        })
+
+    })
+
+
+    $(document).ready(function(){
+
+    })
+    $(".record1").click(function(){
+        $(".record1").addClass("col")
+        $(".record2").removeClass("col")
+        $(".record3").removeClass("col")
+        $(".con1").show();
+        $(".con2").hide();
+        $(".con3").hide();
+    })
+    $(".record2").click(function(){
+        $(".record2").addClass("col")
+        $(".record3").removeClass("col")
+        $(".record1").removeClass("col")
+        $(".con2").show();
+        $(".con1").hide();
+        $(".con3").hide();
+    })
+    $(".record3").click(function(){
+        $(".record3").addClass("col")
+        $(".record2").removeClass("col")
+        $(".record1").removeClass("col")
+        $(".con3").show();
+        $(".con2").hide();
+        $(".con1").hide();
+    })
+
+
+    $(".officialWeb").click(function(){
+        $(".officialWeb").addClass("col")
+        $(".universal").removeClass("col")
+
+        $(".componBox1").show();
+        $(".componBox2").hide();
+
+    })
+    $(".universal").click(function(){
+        $(this).addClass("col")
+        $(".officialWeb").removeClass("col")
+
+        $(".componBox2").show();
+        $(".componBox1").hide();
+
+    })
+
+
+    $(".canBeUse").click(function(){
+        $(this).addClass("col")
+        $(".toBeUsed").removeClass("col")
+
+        $(".use1").show();
+        $(".use2").show();
+        $(".used1").hide();
+        $(".used2").hide();
+    })
+    $(".toBeUsed").click(function(){
+        $(this).addClass("col")
+        $(".canBeUse").removeClass("col")
+
+        $(".used1").show();
+        $(".used2").show();
+        $(".use1").hide();
+        $(".use2").hide();
+    })
+
+
+
+
+    $(".li1").click(function () {
+        $(this).css("cursor","pointer")
+        $(this).addClass("type")
+        $(this).siblings().removeClass("type")
+        $(".aboutOrderList").children().removeClass("type")
+        $(".myAccount").show().siblings().hide()
+    })
+    $(".li2").click(function () {
+        $(this).css("cursor","pointer")
+        $(this).addClass("type")
+        $(this).siblings().removeClass("type")
+        $(".aboutOrderList").children().removeClass("type")
+        $(".myOrder").show().siblings().hide()
+    })
+    $(".li3").click(function () {
+        $(this).css("cursor","pointer")
+        $(this).addClass("type")
+        $(this).siblings().removeClass("type")
+        $(".aboutOrderList").children().removeClass("type")
+        $(".personInfo").show().siblings().hide()
+    })
+    $(".li4").click(function () {
+        $(this).css("cursor","pointer")
+        $(this).addClass("type")
+        $(this).siblings().removeClass("type")
+        $(".aboutOrderList").children().removeClass("type")
+        $(".address").show().siblings().hide()
+    })
+    $(".li5").click(function () {
+        $(this).css("cursor","pointer")
+        $(this).addClass("type")
+        $(this).siblings().removeClass("type")
+        $(".aboutOrderList").children().removeClass("type")
+        $(".integral").show().siblings().hide()
+    })
+    $(".li6").click(function () {
+        $(this).css("cursor","pointer")
+        $(this).addClass("type")
+        $(this).siblings().removeClass("type")
+        $(".aboutMe").children().removeClass("type")
+        $(".myOrder").show().siblings().hide()
+    })
+    $(".li7").click(function () {
+        $(this).css("cursor","pointer")
+        $(this).addClass("type")
+        $(this).siblings().removeClass("type")
+        $(".aboutMe").children().removeClass("type")
+        $(".mytuihuanhuo").show().siblings().hide()
+    })
+</script>

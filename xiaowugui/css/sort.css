@@ -1,0 +1,140 @@
+.wrapMain>.wrapMainTop>.topSpan{
+    display: inline-block;
+    height: 24px;
+    padding-bottom: 10px;
+}
+.wrapMain>.wrapMainTop>.topSpan>.topsPanOne{
+    font-size: 24px;
+    font-weight: 600;
+}
+.wrapMain>.wrapMainTop>.topSpan>.topsPanTwo{
+    font-size: 14px;
+    color: #333;
+    margin-left: 16px;
+}
+
+
+.wrapMain>.wrapMainContent{
+
+}
+.wrapMain>.wrapMainContent>.contentLeft{
+    width: 180px;
+    border-top: 1px solid #333333;
+    margin-top: 10px;
+}
+.wrapMain>.wrapMainContent>.contentLeft>.contentLeftTop{
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.wrapMain>.wrapMainContent>.contentLeft>.contentLeftTop span:nth-child(1){
+    margin-right: 130px;
+}
+.wrapMain>.wrapMainContent>.contentLeft>.contentLeftUl li{
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #666;
+}
+
+
+.wrapMain>.wrapMainContent>.contentRight{
+    max-width: 1000px;
+    margin-top: -100px;
+}
+.wrapMain>.wrapMainContent>.contentRight>.contentRightTop{
+    text-align: right;
+    margin-top: -475px;
+    margin-right: 843px;
+}
+.wrapMain>.wrapMainContent>.contentRight>.contentRightTop>.left{
+
+    width: 1020px;
+}
+.wrapMain>.wrapMainContent>.contentRight>.contentRightTop>.left li{
+    color: #333333;
+    font-size: 14px;
+    margin-right: 20px;
+
+}
+.wrapMain>.wrapMainContent>.contentRight>.contentRightTop>.left li:nth-child(1){
+    float: left;
+}
+.wrapMain>.wrapMainContent>.contentRight>.contentRightTop>.left li:nth-child(2){
+    float: left;
+}
+.wrapMain>.wrapMainContent>.contentRight>.contentRightTop>.left li:nth-child(3){
+    float: left;
+}
+.wrapMain>.wrapMainContent>.contentRight>.contentRightTop>.left li i{
+    width: 14px;
+    height: 14px;
+    background-color: #cccccc;
+    display: inline-block !important;
+    margin-left: 8px;
+}
+.wrapMain>.wrapMainContent>.contentRight>.contentRightTop>.left>.order{
+    cursor: pointer;
+}
+.wrapMain>.wrapMainContent>.contentRight>.contentRightTop>.left input{
+    width: 16px;
+    height: 16px;
+}
+.wrapMain>.wrapMainContent>.contentRight>.contentRightTop>.right{
+    position: relative;
+    right: 10px;
+    display: none;
+}
+.wrapMain>.wrapMainContent>.contentRight>.contentRightTop>.right>span{
+    color: #333;
+    font-size: 14px;
+}
+.wrapMain>.wrapMainContent>.contentRight>.contentRightTop>.right>ul{
+    background: #fff;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.2);
+    border-radius: 2px;
+    display: inline-block;
+    position: absolute;
+    right: -853px;
+    top: -215px;
+    text-align: left;
+    width: 125px;
+}
+.wrapMain>.wrapMainContent>.contentRight>.contentRightTop>.right>ul>li{
+    margin: 15px 0px 15px 15px;
+    /*display: inline-block;*/
+    box-sizing: border-box;
+
+
+}
+.wrapMain>.wrapMainContent>.contentRightList{
+    width: 1020px;
+    margin-left: 180px;
+    margin-top: -520px;
+    float: right;
+}
+.wrapMain>.wrapMainContent>.contentRightList li{
+    width: 225px;
+    display: inline-block;
+    margin-bottom: 12px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.wrapMain>.wrapMainContent>.contentRightList li .goodsIntroduce{
+    margin-top: 10px;
+}
+.wrapMain>.wrapMainContent>.contentRightList li .price{
+    margin-top: 20px;
+}
+.wrapMain>.wrapMainContent>.contentRightList li .price span:nth-child(1){
+    font-size: 14px;
+}
+.wrapMain>.wrapMainContent>.contentRightList li .price span:nth-child(2){
+    font-size: 12px;
+    color: #999;
+}
+.wrapMain>.wrapMainContent>.contentRightList li .newProduct{
+    font-size: 12px;
+    margin-left: 2px;
+}

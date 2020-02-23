@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="country.js"></script>
+</head>
+<body>
+    <button id="btn">按钮</button>
+    <select name="" id="country" onchange="countryFun()">
+        <option value="">请选择省</option>
+    </select>
+    <select name="" id="city" onchange="cityFun()">
+        <option value="">请选择市</option>
+    </select>
+    <select name="" id="area" onchange="areaFun()">
+        <option value="">请选择区</option>
+    </select>
+
+</body>
+</html>
+
+<script>
+    $("#btn").click(function () {
+        console.log(country)
+        var index = $("#country").children('option:selected').index()
+    })
+
+    // 第一步：注意命名不能相同，country重复了
+    var html = "";
+    for(let i = 0;i<country.length;i++){
+        html+=` <option value="">`+country[i].name+`</option>`
+    }
+    $("#country").append(html)
+
+
+
+    // 获取省对应市
+    function countryFun() {
+        var index = $("#country").children('option:selected').index()-1;
+        $("#city").children().not(':eq(0)').remove()
+        var len = country[index].city.length;
+        var city=""
+        for(let i=0;i<len;i++){
+            city+=`<option value="">`+country[index].city[i].name+`</option>`
+        }
+        console.log(city)     //获取当前选择的的省所对应的市
+        $("#city").append(city)
+    }
+
+
+    // 通过当前选择的省和市来获取对应的区
+    function cityFun() {
+        var index1 = $("#country").children('option:selected').index()-1
+        var index2 = $("#city").children('option:selected').index()-1
+        var len = country[index1].city[index2].area.length;
+        $("#area").children().not(":eq(0)").remove()
+        var area = ""
+        for(let i=0;i<len;i++){
+            area+=`<option value="">`+country[index1].city[index2].area[i]+`</option>`
+        }
+        $("#area").append(area)
+    }
+
+
+
+    function areaFun() {
+        var index1 = $("#country").children('option:selected').index()-1
+        var index2 = $("#city").children('option:selected').index()-1
+        var index2 = $("#area").children('option:selected').index()-1
+        console.log(country[index1].name,"省")
+        console.log(country[index1].city[index2].name,"市")
+        console.log(country[index1].city[index2].area,"区");
+    }
+
+
+</script>

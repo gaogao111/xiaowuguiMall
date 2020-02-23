@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页 - Gap中国官网</title>
+    <link rel="stylesheet" href="../css/common/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1588992_yp3r2dw28y8.css">
+    <script src="../plugin/jquery.js"></script>
+</head>
+<body>
+    <div class="headerInfo">
+        <div class="w1200">
+            <ul class="headLeft l_float">
+                <li>GAP</li>
+                <li>OLD NAVY</li>
+            </ul>
+            <div class="headCenter fff fs_14">
+                全场包邮| 发货恢复公告
+            </div>
+            <a href="#" style="color: white;" class="fs_14">查看详情</a>
+            <div class="headRight r_float fff fs_14">
+                <span class="hotLine">
+                    售后服务热线400-680-8517
+                </span>
+                <span class="service">
+                    <span class="icon1">
+                        <i class="iconfont icon-zaixiankefu erji"></i>
+                    </span>
+                    在线客服
+                </span>
+
+            </div>
+        </div>
+        <div class="logo">
+            <div class="w1200 partTwo">
+                   <img src="https://gap-cn-node.oss-cn-shanghai.aliyuncs.com/casaba_plus_assets/prod-2020.2.3-1/static/new-logo-gap.51297b42e37aa2bf88d3c5d0b0e6d093.gif" alt="">
+                <div class="login fs_14">
+                    <div class="loginTop">
+                        <span class="logon " >
+                            <i class="iconfont icon-zhucedengluyonghuming"></i>
+                            注册/登录
+                        </span>
+                        <span class="shopBag myBagFun()">
+                            <i class="iconfont icon-gouwudai101"></i>
+                            <span>我的购物袋</span>
+                        </span>
+                    </div>
+                    <div class="loginBtm">
+                        <input type="text" placeholder="请输入关键词">
+                        <i class="iconfont icon-sousuo"></i>
+                    </div>
+                    <div class="alert">
+                        <ul>
+                            <li onclick="goLoginFun()">我的账户</li>
+                            <li>我的订单</li>
+                            <li>积分</li>
+                            <li>优惠券</li>
+                            <li>退出登录</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="comNav w1200">
+            <li class="nav_li">
+                <span style="color:#333333;font-weight: 600" onclick="goIndexFun()">首页</span>
+            </li>
+            <li class="nav_li">
+                <span class="nav_span">新品</span>
+                <div class="navHov_ul_par">
+                    <ul class="nav_ul nav_ul1">
+                        <li>
+                            <span>分类索引</span>
+                            <span>女装</span>
+                            <span>男装</span>
+                            <span>女孩</span>
+                            <span>男孩</span>
+                            <span>女幼</span>
+                            <span>男幼</span>
+                            <span>女婴</span>
+                            <span>男婴</span>
+                            <span>GapFit</span>
+                            <span>孕妇装</span>
+                        </li>
+                        <li>
+                            <img src="https://uxresources.baozun.com/prod/88000136/20200122/E58425F892F4454DC2C00B4E464226E9.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav_li">
+                <span class="nav_span">牛仔型格</span>
+                <div class="navHov_ul_par">
+                    <ul class="nav_ul nav_ul1">
+                        <li>
+                            <span>分类索引</span>
+                            <span>女装</span>
+                            <span>男装</span>
+                            <span>女孩</span>
+                            <span>男孩</span>
+                            <span>女幼</span>
+                            <span>男幼</span>
+                            <span>女婴</span>
+                            <span>男婴</span>
+                        </li>
+                        <li>
+                            <img src="https://uxresources.baozun.com/prod/88000136/20200205/B6F712D8C8BCE80EF3002A3A5ED405F0.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav_li">
+                <span style="font-weight: 600; color: #be200a;">专属定制</span>
+            </li>
+            <li class="nav_li">
+                <span class="nav_span">女装</span>
+            </li>
+            <li class="nav_li" onclick="goSortFun()">
+                <span class="nav_span">男装</span>
+            </li>
+            <li class="nav_li">
+                <span class="nav_span">女孩</span>
+            </li>
+            <li class="nav_li">
+                <span class="nav_span">男孩</span>
+            </li>
+            <li class="nav_li">
+                <span class="nav_span">幼儿（1-5岁）</span>
+            </li>
+            <li class="nav_li">
+                <span class="nav_span">婴儿（0-24个月）</span>
+            </li>
+            <li class="nav_li">
+                <span style="font-weight: 600; color: #be200a;">Sale</span>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+<script>
+function goLoginFun(){
+    window.location.href=`../html/login.html`
+}
+function myBagFun(){
+    window.location.href=`../html/myShoppingBag.html`
+}
+
+
+function goIndexFun(){
+    window.location.href=`../html/index.html`
+}
+
+
+function goSortFun(){
+    window.location.href=`../html/sort.html`
+}
+
+
+
+$(".navHov_ul_par").css("width",window.screen.width+"px")
+
+    $(".nav_span").mouseover(function(){
+        $(".navHov_ul_par").css("display","block")
+    })
+    $(".nav_span").mouseout(function(){
+        $(".navHov_ul_par").css("display","none")
+    })
+</script>

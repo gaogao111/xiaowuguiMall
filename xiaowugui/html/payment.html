@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>支付</title>
+    <link rel="stylesheet" href="../css/payment.css">
+
+    <link rel="stylesheet" href="../css/common/common.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1588992_12kif7i9aaf.css">
+
+
+    <script src="../swiper/jquery.js"></script>
+</head>
+<body>
+    <div class="wrap w1200">
+        <div class="header">
+            <div class="headerLeft">
+                <i class="iconfont icon-fanhui"></i>
+                返回购物袋
+            </div>
+            <div class="headerCenter">
+                <a href="https://www.gap.cn"></a>
+                <img src="https://gap-cn-node.oss-cn-shanghai.aliyuncs.com/casaba_plus_assets/prod-2020.2.3-1/static/new-logo-gap.51297b42e37aa2bf88d3c5d0b0e6d093.gif" alt="">
+            </div>
+            <div class="headerRight">
+                <span>400-680-8517</span>
+                <span>
+                    <i class="iconfont icon-zaixiankefu"></i>
+                    在线客服
+                </span>
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentTop">
+                <div class="tips">
+                    <p>请及时付款以便订单尽快处理</p>
+                    <span>下单后8小时内未付款，订单将自动取消，请尽快完成支付</span>
+                </div>
+                <div class="payCode">
+                    <div class="erWeiCode">
+                        <img src="../img/erweima.png" alt="">
+                        <p>应付金额：<i class="priceOne">￥224.50</i></p>
+                    </div>
+                    <div class="payTips">
+                        <p>请使用手机支付宝，扫描二维码进行支付。</p>
+                        <P>或者您也可以：</P>
+                        <p>前往 <a href="#">支付宝网站</a>付款或 <a href="#">选择其他方式付款</a></p>
+                    </div>
+                </div>
+            </div>
+            <ul class="orderInfo">
+                <li class="orderNumber">
+                    <span>订单号：<i>120021910191285390</i></span>
+                    <span class="payStatus r_float"> <i>等待付款</i></span>
+                </li>
+                <li>配送地址：高苗苗 15639518309 河南省漯河市就不告诉你略略</li>
+                <li>支付方式：支付宝</li>
+                <li>订单总额：￥ <i>224.50</i></li>
+            </ul>
+            <div class="orderProducts">
+                <div class="orderListProducts">
+                    <div class="goodsPicture">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190927/7C09BDFBBF1ACE77B3A71163C6565600.jpg" alt="">
+                    </div>
+                    <div class="aboutStandard">
+                        <p>Gap</p>
+                        <p>男装|弹力水洗直筒牛仔裤</p>
+                        <span>36/32（175/90A）、中度淡蓝色</span>
+                    </div>
+                    <div class="price">
+                        <span>
+                            <i >￥224.50</i>
+                            <i style="margin-left: 10px; color: #999999">x1</i>
+                        </span>
+                        <span>
+                            小计: <i>￥224.50</i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <ul class="contentBtm">
+                <li class="totalProducts">
+                    <span>商品总额</span>
+                    <i class="priceTotal">￥0</i>
+                </li>
+                <li class="discount">
+                    <span>
+                        优惠
+                        <i class="iconfont icon-wenhao mark" style="color: #999999"></i>
+                    </span>
+                    <i>-￥0.00</i>
+                </li>
+                <li class="carriage">
+                    <span>运费</span>
+                    <i>￥0.00</i>
+                </li>
+                <li class="totalList">
+                    <span>订单总额</span>
+                    <i class="priceTotal">￥0</i>
+                </li>
+                <div class="popUpBox">全场包邮</div>
+            </ul>
+        </div>
+
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script>
+
+    $("#footer").load("../common/footer.html")
+
+
+
+    $(".mark").mouseover(function () {
+        $(".popUpBox").css("display","block")
+    })
+    $(".mark").mouseout(function () {
+        $(".popUpBox").css("display","none");
+    })
+
+
+    var price = $(".priceOne").text()
+     var priceTotal = $(".priceTotal").text()
+    $(".priceTotal").empty()
+    priceTotal +=price
+    $(".priceTotal").innerText = priceTotal
+    console.log(price)
+    console.log(typeof price)
+    console.log(parseInt (price) )
+    console.log(priceTotal)
+</script>

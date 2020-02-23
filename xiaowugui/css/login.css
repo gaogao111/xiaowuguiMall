@@ -1,0 +1,298 @@
+.com_border_bot{
+    border-bottom: 2px solid #333;
+}
+.ipt_border_w{
+    border: 1px solid #ed4040 !important;
+}
+.ipt_tip{
+    font-size: 12px;
+    color: #ed4040;
+    padding-top: 5px;
+    display: none;
+}
+
+/* 公共部分 */
+
+
+.l_wrap{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.l_wrap>.wrap_top{
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    cursor: pointer;
+}
+.l_wrap>.wrap_top>span{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+}
+.l_wrap>.wrap_main>main_l{
+    padding: 20px 0;
+}
+
+.l_wrap>.wrap_main>.main_l>.introl{
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.l_wrap>.wrap_main>.main_l>.label{
+    margin-top: 25px;
+}
+.l_wrap>.wrap_main>.main_l>.label input{
+    font-size: 14px;
+    color: #606266;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+.l_wrap>.wrap_main>.main_l>.label img{
+    width: 95px;
+    vertical-align: middle;
+}
+.l_wrap>.wrap_main>.main_l>.label .com_btn{
+    width: 130px;
+    height: 36px;
+    line-height: 36px;
+    float: right;
+    margin-top: 10px;
+}
+
+
+.l_wrap>.wrap_main>.main_r{
+    display: none;
+}
+.l_wrap>.wrap_main>.main_r>.label{
+    margin-top: 20px;
+}
+.l_wrap>.wrap_main>.main_r>.label:nth-child(3) .forpwd{
+    float: right;
+    text-decoration: underline;
+}
+.l_wrap>.wrap_main>.main_r>.label .ipt{
+    font-size: 14px;
+    color: #606266;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+
+
+
+.l_wrap>.login_btn{
+
+}
+.l_wrap>.ipt_tip>.login{
+    width: 400px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+.l_wrap>.ipt_tip>.wechart{
+
+}
+.l_wrap>.ipt_tip>.wechart div{
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.l_wrap>.ipt_tip>.wechart i{
+    font-size: 30px;
+}
+
+
+
+
+/* 弹出框 */
+.layerbg{
+    background-color: rgba(0, 0, 0, .3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /*display: none;*/
+}
+.layerbg>.layer{
+    width: 410px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -210px;
+}
+.layerbg>.layer>.top>.title{
+    font-size: 18px;
+    text-align: center;
+    color: #2e2e2e;
+}
+.layerbg>.layer>.top>.close{
+    margin-left: 400px;
+}
+.layerbg>.layer .label {
+    margin-top: 20px;
+}
+.layerbg>.layer .label .phoneNum{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.layerbg>.layer .label input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    color: #999999;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.layerbg>.layer .label .input1{
+    width: 250px;
+
+}
+.layerbg>.layer .label>.txyzm{
+    margin-bottom: 10px;
+}
+.layerbg>.layer .label>.yzm{
+    margin-bottom: 10px;
+}
+.layerbg>.layer .label .send{
+    display: inline-block;
+    border: 1px solid black;
+    width: 130px;
+    height: 36px;
+    font-size: 12px;
+    color: #042f6a;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.layerbg>.layer>.nextTip{
+    width: 100%;
+    height: 36px;
+    background-color: #0d2347;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white !important;
+    line-height: 36px;
+    padding: 0 !important;
+    border-radius: 5px;
+}
+/*.layerbg>.layer .label .please{*/
+    /*border: 1px solid black;*/
+    /*height: 40px;*/
+/*}*/
+
+.layerbg>.layer>.nextTip.layerbg>.layer1>.nextTip{
+    width: 410px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+.layerbg>.layer>.nextTip.layerbg>.layer1>.top{
+    position: relative;
+}
+.layerbg>.layer>.nextTip,.layerbg>.layer1>.top>.title{
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.layerbg>.layer>.nextTip.layerbg>.layer1>.top>.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+
+.layerbg>.layer>.label.layerbg>.layer1>.label{
+    margin-top: 25px;
+}
+.layerbg>.layer>.label.layerbg>.layer1>.label input{
+    font-size: 14px;
+    color: #606266;
+    height: 36px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+.layerbg>.layer>.label img{
+    width: 95px;
+    vertical-align: middle;
+}
+.layerbg>.layer>.label .com_btn.layerbg>.layer1>.label .com_btn{
+    width: 130px;
+    height: 36px;
+    line-height: 36px;
+    float: right;
+    margin-top: 10px;
+}
+
+.layerbg>.layer1{
+    width: 410px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -163px;
+    display: none;
+}
+
+.layerbg>.layer1>.top>.close{
+    margin-left: 400px;
+    cursor: pointer;
+}
+.layerbg>.layer1>.top>.title{
+    font-size: 18px;
+}
+.layerbg>.layer1>.label{
+    margin-top: 20px;
+
+}
+.layerbg>.layer1>.label>input{
+    margin-top: 10px;
+    height: 42px;
+    border: 1px solid #0d2347;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+.layerbg>.layer1>.finish{
+    width: 410px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 20px 0;
+    background-color: #0d2347;
+    cursor: pointer;
+}

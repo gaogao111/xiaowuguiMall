@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>配送信息</title>
+    <link rel="stylesheet" href="../css/common/common.css">
+    <link rel="stylesheet" href="../css/distributeInformation.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1588992_hyprsp9qrht.css">
+    <script src="../swiper/jquery.js"></script>
+    <script src="../swiper/country.js"></script>
+</head>
+<body>
+    <div class="wrap w1200">
+        <div class="header">
+            <div class="headerLeft">
+                <i class="iconfont icon-fanhui"></i>
+                返回购物袋
+            </div>
+            <div class="headerCenter">
+                <a href="https://www.gap.cn"></a>
+                <img src="https://gap-cn-node.oss-cn-shanghai.aliyuncs.com/casaba_plus_assets/prod-2020.2.3-1/static/new-logo-gap.51297b42e37aa2bf88d3c5d0b0e6d093.gif" alt="">
+            </div>
+            <div class="headerRight">
+                <span>400-680-8517</span>
+                <span>
+                    <i class="iconfont icon-zaixiankefu"></i>
+                    在线客服
+                </span>
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentLeft">
+                <div class="title">配送信息</div>
+                <div class="addresseeInformation">
+                    <div class="aboutAddressee">
+                        <span class="addressee">
+                            <p>收件人</p>
+                            <input type="text" placeholder="请输入姓名">
+                        </span>
+                        <span class="phone">
+                            <p>手机号</p>
+                            <input type="text" placeholder="请输入手机号码">
+                        </span>
+                    </div>
+                    <div class="chooseAddress">
+                        <div class="threeCheck">
+                            <span>省</span>
+                            <span>市</span>
+                            <span>区</span>
+                        </div>
+                        <div class="choosePlease">
+                            <select name="" id="country" onchange="countryFun()">
+                                <option value="">请选择省</option>
+                            </select>
+                            <select name="" id="city" onchange="cityFun()">
+                                <option value="">请选择市</option>
+                            </select>
+                            <select name="" id="area" onchange="areaFun()">
+                                <option value="">请选择区</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="detailAddress">
+                        <p>详细地址</p>
+                        <input type="text" placeholder="请输入详细地址">
+                    </div>
+                    <div class="modeOfDistribution">
+                        <div class="mode">配送方式</div>
+                        <div class="carriage">
+                            <span>快递</span>
+                            <span class=".forFree">免运费</span>
+                        </div>
+                    </div>
+                    <div class="orderList">
+                        <div class="title">商品信息</div>
+                        <div class="list">
+                            <div class="orderListProducts">
+                                <div class="goodsPicture">
+                                    <img src="https://uxresources.baozun.com/prod/88000136/20190927/7C09BDFBBF1ACE77B3A71163C6565600.jpg" alt="">
+                                </div>
+                                <div class="aboutStandard">
+                                    <p>Gap</p>
+                                    <p>男装|弹力水洗直筒牛仔裤</p>
+                                    <span>36/32（175/90A）、中度淡蓝色</span>
+                                </div>
+                                <div class="price">
+                                    <span>
+                                        <i >￥224.50</i>
+                                        <i style="margin-left: 10px; color: #999999">x1</i>
+                                    </span>
+                                    <span>
+                                        小计: <i>￥224.50</i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="orderListProducts">
+                                <div class="goodsPicture">
+                                    <img src="https://uxresources.baozun.com/prod/88000136/20190927/7C09BDFBBF1ACE77B3A71163C6565600.jpg" alt="">
+                                </div>
+                                <div class="aboutStandard">
+                                    <p>Gap</p>
+                                    <p>男装|弹力水洗直筒牛仔裤</p>
+                                    <span>36/32（175/90A）、中度淡蓝色</span>
+                                </div>
+                                <div class="price">
+                                    <span>
+                                        <i >￥224.50</i>
+                                        <i style="margin-left: 10px; color: #999999">x1</i>
+                                    </span>
+                                    <span>
+                                        小计: <i>￥224.50</i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right r_float">
+                <div class="rightTop">
+                    <div class="title">
+                            <span>订单摘要</span>
+                            <span>已选<i>1</i>件商品</span>
+                    </div>
+                    <div class="aboutPrice">
+                        <div class="totalPrice">
+                            <span>商品总额</span>
+                            <span> <i>￥199.50</i></span>
+                        </div>
+                        <div class="discount">
+                            <span>优惠
+                                <i class="iconfont icon-wenhao" style="color: #999999"></i>
+                            </span>
+                            <span> <i >￥0.00</i></span>
+                        </div>
+                        <div class="carriage">
+                                <span>运费</span>
+                                <span>免运费</span>
+                        </div>
+                    </div>
+                        <div class="indentMoney">
+                            <div class="indentTotalMoney">
+                                <span>订单总额</span>
+                                <span><i>￥199.50</i></span>
+                            </div>
+                            <p>下单即可能获得积分 <a href="#">查看积分</a></p>
+                            <button class="closeAnAccount" onclick="paymentFun()">立即结算</button>
+                        </div>
+                    </div>
+                <div class="rightBottom">
+                    <div class="columnOne column">
+                        <P class="title">
+                            需要帮助？
+                            <span class="span1 disNone">-</span>
+                            <span class="span2">+</span>
+                        </P>
+                        <div class="content">
+                            <span class="sp">
+                                <i class="iconfont &#xe60e;"></i>
+                                在线客服
+                                <span>（服务时间:10:00-22:00）</span>
+                            </span>
+                            <p>售后服务热线</p>
+                            <span class="number">406808517
+                                <span>（服务时间:10:00-22:00）</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="columnTwo column">
+                        <div class="title">
+                            支付方式
+                            <span class="span1 disNonr">-</span>
+                            <span class="span2">+</span>
+                        </div>
+                        <div class="content">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="footer"></div>
+</body>
+</html>
+
+
+<script>
+    $("#footer").load("../common/footer.html")
+    // var height=$("list").height
+    // var index=$("list").children().length;
+    // var totalHeight =height*(index+1)
+    // console.log()
+    // console.log(index)
+    // console.log(totalHeight)
+    // if (totalHeight>height){
+    //     $(this).style.overflowY="scroll"
+    // } else{
+    //     $(".list").style.overflow="none"
+    // }
+
+    function paymentFun(){
+        window.location.href(`payment.html`)
+    }
+
+
+
+    $("#btn").click(function(){
+        console.log(country)
+        var index = $("#country").children('option:selected').index()
+    })
+
+    //第一步;注意命名不能相同，country重复了
+    var html = "";
+    for(let i=0;i<country.length;i++){
+
+        html+=`<option value="">`+country[i].name+`</option>`
+    }
+    $("#country").append(html)
+
+    //  第二步获取省份对应的市
+    function countryFun(){
+        var index = $("#country").children('option:selected').index()-1//获取选中省份下标
+        $("#city").children().not(':eq(0)').remove()  //append，除了第一个元素都删除
+        var len = country[index].city.length;
+        var city = '';
+        for(let i=0;i<len;i++){
+            city+=`<option value="">`+country[index].city[i].name+`</option>`
+        }
+        console.log(city)//获取选择省份对应的市
+        $("#city").append(city)
+    }
+
+    //  第三步获取市对应的区
+    function cityFun() {
+        var index1 = $("#country").children('option:selected').index()-1//获取选中省份下标
+        var index2 = $("#city").children('option:selected').index()-1//获取选中市下标
+        var len = country[index1].city[index2].area.length;
+        $("#area").children().not(':eq(0)').remove()  //append，除了第一个元素都删除
+        var area = '';
+        for(let i=0;i<len;i++){
+            area+=`<option value="">`+country[index1].city[index2].area[i]+`</option>`
+        }
+        $("#area").append(area)
+    }
+
+    //第四步，打印出来选择的省市区
+
+    function areaFun() {
+        var index1 = $("#country").children('option:selected').index()-1//获取选中省份下标
+        var index2 = $("#city").children('option:selected').index()-1//获取选中省份下标
+        var index3 = $("#area").children('option:selected').index()-1//获取选中省份下标
+        console.log(country[index1].name,"省")
+        console.log(country[index1].city[index2].name,"市")
+        console.log(country[index1].city[index2].area[index3],"区")
+    }
+
+
+
+
+    $(".span1").click(function () {
+        $(this).addClass("disNone")
+        $(".span2").removeClass("disNone")
+        $(".span2").addClass("disBlock")
+        $(".content").addClass("disBlock")
+    })
+    $(".span2").click(function () {
+        $(this).addClass("disNone")
+        $(".span1").removeClass("disNone")
+        $(".content").removeClass("disBlock")
+    })
+</script>

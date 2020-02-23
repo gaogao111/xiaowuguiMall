@@ -1,0 +1,258 @@
+.footTop{
+    width: 100%;
+    height: 88px;
+    background-color: #0d2347;
+    position: relative;
+}
+.footTop .foot1{
+    padding-top: 20px;
+}
+.footTop .foot1 .partOne{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 16px;
+    white-space: nowrap;
+    font-weight: 600;
+    width: 192.15px;
+    height: 38.4px;
+}
+.footTop .foot1 .partOne div{
+    display: inline-block;
+}
+.footTop .foot1 .partOne .newsEn{
+margin-bottom: 8px;
+}
+.footTop .foot1 .partOne .newsOne{
+    margin-bottom: 10px;
+}
+.footTop .foot1 .partInput{
+    display: inline-block;
+    clear: both;
+    height: 40px;
+    width: 404px;
+    background-color: white;
+    box-sizing: border-box;
+    left: 300px;
+   
+}
+.footTop .foot1 .partInput input{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #eee;
+    padding-left: 10px;
+}
+.footTop .foot1 .partInput .fontIcon{
+    display: inline-block;
+    position: relative;
+    
+    width: 16.8px;
+    height: 16px;
+    top: -30px;
+    right: -385px;
+    /*background-color: burlywood;*/
+}
+
+.footTop .foot1 .partInput .fontIcon i{
+    position: absolute;
+    color: #0d2347;
+}
+.footTop .foot1 .footFocus{
+    display: inline-block;
+    width: 176px;
+    /*height: 48px;*/
+    margin: 0 240px 13px 70px;
+    line-height: 1.2;
+
+    position: absolute;
+}
+.footTop .foot1 .footFocus>.weibo{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+.footTop .foot1 .footFocus>.weibo i{
+
+    font-size: 24px;
+    color: #0d2347;
+}
+.footTop .foot1 .footFocus>.weixin{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    margin-left: 16px;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.footTop .foot1 .footFocus>.weixin i{
+    font-size: 24px;
+    line-height: 1.7;
+    color: #0d2347;
+
+}
+.footTop>.foot1>.footFocus>.erWeiMa{
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 20px 40px 40px 40px;
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    /*overflow: hidden;*/
+    float: right;
+    width: 100px;
+    height: 100px;
+    /*background-color: red;*/
+    display: none;
+
+}
+.footTop>.foot1>.footFocus>.erWeiMa>img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #999;
+    /*display: none;*/
+}
+.footTop>.foot1 .footFocus>.erWeiMa>p{
+    font-size: 12px;
+    color: black;
+    height: 20px;
+    display: inline-block;
+    width: 145px;
+    line-height: 20px;
+    margin-left: -20px;
+}
+.footTop .foot1 .zxkf{
+    display: inline-block;
+    width: 170px;
+    height: 38.4px;
+    margin-top: -62px;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.footTop .foot1 .zxkf .iconFather{
+    text-align: right;
+    margin-right: 15px;
+}
+.footTop .foot1 .zxkf span{
+    margin-right: 28px;
+    text-align: right;
+}
+.footTop .foot1 .zxkf .iconFather span{
+    margin-bottom: 5px;
+}
+.footTop>.erWeiMa{
+    margin-top: -10px;
+    margin-left: 880px;
+    padding: 20px 30px 40px 30px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.footMain>.footCenter>.content{
+    display: inline-block;
+    height: 334.8px;
+    width: 1200px;
+    margin-left: 165px;
+}
+.footMain>.footCenter>.content ul{
+    display: inline-block;
+    vertical-align: top;
+}
+.footMain>.footCenter>.content ul:nth-child(1){
+    width: 100px;
+    height: 269px;
+
+}
+.footMain>.footCenter>.content ul:nth-child(2){
+    width: 100px;
+    height: 269px;
+}
+.footMain>.footCenter>.content ul:nth-child(3){
+    width: 210px;
+    height: 269px;
+}
+.footMain>.footCenter>.content ul:nth-child(4){
+    width: 304px;
+    height: 269px;
+}
+.footMain>.footCenter>.content ul:nth-child(5){
+    width: 225px;
+    height: 269px;
+}
+.footMain>.footCenter>.content ul:nth-child(6){
+    width: 128px;
+    height: 269px;
+}
+.footMain>.footCenter>.content ul li{
+    font-size: 12px;
+    padding: 8px 0;
+    line-height: 24px;
+  }
+.footMain>.footCenter>.content ul .immediate{
+    padding: 0;
+    border: 1px solid #0d2347;
+    width: 60px;
+    text-align: center;
+    border-radius: 3px;
+}
+.footMain>.footCenter>.content .firm{
+    margin-left: 65px;
+}
+.footMain>.footCenter>.content ul .gysx{
+    font-size: 14px;
+    font-weight: bold;
+}
+.footMain>.footCenter>.content .firm .examine{
+    border: 1px solid black;
+    width: 60px;
+    height: 10px;
+    line-height: 1;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+
+
+.footMain>.footBottom{
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    padding-bottom: 10px;
+}
+.footMain>.footBottom>.global a{
+    text-decoration: none;
+    color: #000;
+}
+.footMain>.footBottom>ul{
+    margin: 5px 0;
+}
+.footMain>.footBottom>ul li{
+    display: inline-block;
+}
+.footMain>.footBottom>ul img{
+    width: 20px;
+    height: 20px;
+}
+.footMain>.footBottom>ul .icp{
+    margin-right: 5px;
+}
+.footMain>.footBottom>ul .hu{
+    margin: 0 5px;
+}
+.footMain>.footBottom>ul .shangHai{
+    margin-left: 5px;
+}
+.footMain>.footBottom>.littleTip{
+    margin: 20px 0 10px 0;
+}
+.footMain>.footBottom>.littleTip a{
+    color: black;
+}

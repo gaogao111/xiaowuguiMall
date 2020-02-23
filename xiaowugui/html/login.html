@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common/common.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1588992_wa45v6crn9.css">
+    <script src="../plugin/jquery.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="l_wrap">
+        <div class="wrap_top">
+            <span onclick="loginNavFun(1)" class="loginNav1 loginNav com_border_bot col_3">短信快捷登录/注册</span>
+            <span onclick="loginNavFun(2)" class="loginNav2 loginNav col_9">账号密码登录</span>
+        </div>
+        <div class="wrap_main">
+            <div class="main_l">
+                <div class="introl">新会员注册成功后，可获赠10元无门槛会员欢迎礼券及首单双倍积分！</div>
+                <div class="introl">*新会员欢迎礼券将在1-2日送达您的账户</div>
+
+                <div class="label">
+                    <div class="fs_14 col_3">手机号</div>
+                    <input type="text" id="phoneId" onblur="BlurFun(1)" style="width: 400px;" placeholder="请输入手机号">
+                    <div class="phoneTip phoneTip1 ipt_tip">请输入手机号码</div>
+                    <div class="phoneTip phoneTip2 ipt_tip">请输入正确的手机号</div>
+                </div>
+                <div class="label">
+                    <div class="fs_14 col_3">图形验证码</div>
+                    <div>
+                        <input type="text" id="imgId" onblur="BlurFun(2)" placeholder="请输入右侧图片中验证码">
+                        <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAoCAIAAAC6iKlyAAACmklEQVR42u3avUoDQRAH8APfwdYnEQt9AG08CwtrwUpsVKysfARBrC3FWGorlnmFFMHKXhDiysI67M3NzuzXTeId/yqJ4fjtOLt7m2aRfN3cvdgsxqv/ajJ+lxMf0ctCj+gDQI/oA0CP6ANA/1v0Rsl9rDx6o/CeIHqE+/fObjdLA/3xvoYm+w3tHT0QiSAuxN0+PRO53J7GQPcpZ4SmfV1gpR9fzVyCxDD2TwoRw8igCeX60GiHESm70objJAofGlqXhT7Z/ySSCM1sF9nbiAjaWTcpyvyKPt88dEGHgQndHSEU0ZtIs0CbtmsjhbbWTYpyIjRa0XSNeyOECsLxo9sLHxdObn1dmCh2RdDMrh29kgsOCfxf6eJ6mtLGQkF3QUXQ7es6DAo9mxwQQaG9z6B86LcFhwQt3lwd/BcavS1PE30RvhUMhHYveoPh7vV0PudUtLQboJ/Pghtf0WjZlm4dEN1Y14HOu9uS9eg+Sg09Gg5GOnR7f5slQWUEmqDUNhmi0F47ogcmI7R4w0I4LgU0sWwoBy3egtOISqC3pm8m9ORWtXUwlHNCQ8qU0NCWOONkePF4XWiZ0QsdLFUN0LAzaFh1MMv5D5rTEOpAf22c2aDQZtnnOoNaaOrBvx5ouqLtGNgdjQjOtAiN0HERTYZ2ToM9l7/qsNwcOONrU2EdzTrKqglN+/KXd6auUWvXfGDwRfcqQVvWmk/vXAmHdzfLDu3agqtcnY9JCy2ii0MTbbcQNHGUxf9A1ckw+iw8OKdJT1ikqX9mOAx09qMsaeLOZ0s/fY6HNjWrFlpqXfoBtBjam9M0Q9f/pVIqdHfBoL911D9JSYJm7iPqXOhaWHSZ7YzdqSu51P2aNJ3Y4x6hK11KrFcfWon1D4Rcc0/topI4AAAAAElFTkSuQmCC" alt="">
+                        <span class="fs_14">刷新</span>
+                    </div>
+                    <div class="imgTip1 ipt_tip">请输入图形验证码运算结果</div>
+                    <div class="imgTip2 ipt_tip">验证错误</div>
+                </div>
+                <div class="label">
+                    <div class="fs_14 col_3">验证码</div>
+                    <div>
+                        <input type="text" id="yzmId" onblur="BlurFu(3)" placeholder="请输入短信验证码">
+                        <span class="con_btn">发送验证码</span>
+                    </div>
+                    <div class="yzmTip ipt_tip">请输入短信验证码</div>
+                </div>
+            </div>
+            <div class="main_r">
+                <div class="label">
+                    <div class="fs_14 col_3">账号</div>
+                    <input type="text" id="numberId" onblur="BlurFun(4)" class="ipt" style="width: 400px" placeholder="请输入账号">
+                    <div class="numberTip1 ipt_tip">请输入手机号码/邮箱</div>
+                    <div class="numberTip2 ipt_tip">请输入正确的手机号码/邮箱</div>
+                </div>
+            
+                <div class="label">
+                    <div class="fs_14 col_3">密码</div>
+                    <input type="password" id="pwdId" onblur="BlurFun(5)" class="ipt" style="width: 400px" placeholder="请输入密码">
+                    <div class="pwdTip1 ipt_tip">请输入密码</div>
+                 <div class="pwdTip2 ipt_tip">请输入正确密码</div>
+                </div>
+
+                <div class="label">
+                    <span>
+                        <input type="checkbox">
+                        <span class="fs_14 col_3">记住我</span>
+                    </span>
+                    <span class="forpwd fs_14 col_3" onclick="logLayerFun()">忘记密码</span>
+                </div>
+            </div>
+        </div>
+        <div class="login_btn">
+            <div class="login com_bg fff fs_14">登录</div>
+            <div class="wechart">
+                <div>第三方登录</div>
+                <i class="iconfont icon-weixin" style="font-size: 18px"></i>
+                <i class ="iconfont icon-qq1" style="font-size: 21px"></i>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+
+
+
+
+    <!-- 弹出框 -->
+    <div class="layerbg">
+        <div class="layer">
+            <div class="top">
+                <span class="close" onclick="cloLayerFun()">X</span>
+                <div class="title">验证手机</div>
+
+            </div>
+            <div class="label">
+                <div class="fs_14 col_3 phoneNum">手机号</div>
+                <input type="text" style="width: 400px" placeholder="请输入手机号">
+                <div class="ipt_tip please">请输入手机号码</div>
+            </div>
+            <div class="label">
+                <div class="fs_14 col_3 txyzm">图形验证码</div>
+                <div>
+                    <input type="text" placeholder="请输入右侧图片中验证码" class="input1">
+                    <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAoCAIAAAC6iKlyAAACmklEQVR42u3avUoDQRAH8APfwdYnEQt9AG08CwtrwUpsVKysfARBrC3FWGorlnmFFMHKXhDiysI67M3NzuzXTeId/yqJ4fjtOLt7m2aRfN3cvdgsxqv/ajJ+lxMf0ctCj+gDQI/oA0CP6ANA/1v0Rsl9rDx6o/CeIHqE+/fObjdLA/3xvoYm+w3tHT0QiSAuxN0+PRO53J7GQPcpZ4SmfV1gpR9fzVyCxDD2TwoRw8igCeX60GiHESm70objJAofGlqXhT7Z/ySSCM1sF9nbiAjaWTcpyvyKPt88dEGHgQndHSEU0ZtIs0CbtmsjhbbWTYpyIjRa0XSNeyOECsLxo9sLHxdObn1dmCh2RdDMrh29kgsOCfxf6eJ6mtLGQkF3QUXQ7es6DAo9mxwQQaG9z6B86LcFhwQt3lwd/BcavS1PE30RvhUMhHYveoPh7vV0PudUtLQboJ/Pghtf0WjZlm4dEN1Y14HOu9uS9eg+Sg09Gg5GOnR7f5slQWUEmqDUNhmi0F47ogcmI7R4w0I4LgU0sWwoBy3egtOISqC3pm8m9ORWtXUwlHNCQ8qU0NCWOONkePF4XWiZ0QsdLFUN0LAzaFh1MMv5D5rTEOpAf22c2aDQZtnnOoNaaOrBvx5ouqLtGNgdjQjOtAiN0HERTYZ2ToM9l7/qsNwcOONrU2EdzTrKqglN+/KXd6auUWvXfGDwRfcqQVvWmk/vXAmHdzfLDu3agqtcnY9JCy2ii0MTbbcQNHGUxf9A1ckw+iw8OKdJT1ikqX9mOAx09qMsaeLOZ0s/fY6HNjWrFlpqXfoBtBjam9M0Q9f/pVIqdHfBoL911D9JSYJm7iPqXOhaWHSZ7YzdqSu51P2aNJ3Y4x6hK11KrFcfWon1D4Rcc0/topI4AAAAAElFTkSuQmCC" alt="">
+                    <span class="fs_14">刷新</span>
+                </div>
+                <div class="ipt_tip">请输入图形验证码运算结果</div>
+            </div>
+            <div class="label">
+                <div class="fs_14 col_3 yzm">验证码</div>
+                <div>
+                    <input type="text" placeholder="请输入短信验证码" class="input1">
+                    <span class="com_btn send">发送验证码</span>
+                </div>
+                <div class="ipt_tip">请输入短信验证码</div>
+            </div>
+            <div id="nextBtn" class="nextTip com_bg fff fs_14">下一步</div>
+        </div>
+        <div class="layer1">
+            <div class="top">
+                <span class="close" onclick="cloLayerFun()">X</span>
+                <div class="title">验证手机</div>
+            </div>
+            <div class="label">
+                <div class="fs_14 col_3">输入密码</div>
+                <input type="password" onblur="BlurFun(6)" id="regPwdId1" style="width: 400px" placeholder="请输入密码">
+                <div class="regPwd1 ipt_tip">请输入密码</div>
+                <div class="regPwd2 ipt_tip">两次输入的密码不一致</div>
+            </div>
+            <div class="label">
+                <div class="fs_14 col_3">确认新密码</div>
+                <input type="password" id="regPwdId2" onblur="BlurFun(7)" style="width: 400px" placeholder="请再次确认新密码">
+                <div class="regPwd3 ipt_tip">请输入确认密码</div>
+                <div class="regPwd4 ipt_tip">两次输入密码不一致</div>
+            </div>
+            <div class="finish com_bg fff fs_14">完成并登录</div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<script>
+$("#header").load("common/header.html")
+$("#footer").load("common/footer.html")
+
+
+$("#nextBtn").click(function(){
+    $(".layer").css("display","none")
+    $(".layer1").css("display","block")
+})
+
+
+// 登录页导航功能
+$("#header").load("../common/header.html")
+$("#footer").load("../common/footer.html")
+
+
+$("#nextBtn").click(function () {
+    $(".layer").css("display","none")
+    $(".layer1").css("display","block")
+})
+//登陆页导航功能
+function loginNavFun(val){
+    console.log(val)
+    $(".loginNav").removeClass("com_border_bot");
+    // //js
+    // $(".loginNav")[0].style.borderBottom="none";
+    // $(".loginNav")[1].style.borderBottom="none";
+    if(val===1){
+        //    说明点击的是第一个
+        $(".main_l").css("display","block");
+        $(".main_r").css("display","none");
+        // console.log($(".wrap_top")[0].children[0].style.borderBottom="2px solid #333")
+        $(".loginNav1").addClass("com_border_bot")
+    }
+    else if(val===2){
+        //    说明点击的是第一个
+        $(".main_r").css("display","block");
+        $(".main_l").css("display","none");
+        // $(".wrap_top")[0].children[1].style.borderBottom="2px solid #333"
+        $(".loginNav2").addClass("com_border_bot")
+    }
+}
+
+
+// 表单验证
+function BlurFun(value){
+    //手机号
+    if(value===1){
+        console.log($("#phoneId").val())
+        let val = $("#phoneId").val()
+        if(val===''){
+            $("#phoneId").addClass("ipt_border_W")
+            $(".phoneTip1").show()
+            $(".phoneTip2").hide()
+        }
+        else if(!(/^1[34578]\d{9}$/.test(val)) && val!==''){
+            $("#phoneId").addClass("ipt_border_W")
+            $(".phoneTip2").show()
+            $(".phoneTip1").hide()
+        }
+        else{
+            $("#phoneId").removeClass("ipt_border_W")
+            $(".phoneTip2").hide()
+            $(".phoneTip1").hide()
+        }
+    }
+    //图片验证
+    else if(value===2){
+        let val = $("#imgId").val()
+        if(val===''){
+            $("#imgId").addClass("ipt_border_W")
+            $(".imgTip1").show();
+            $(".imgTip2").hide()
+        }
+        else if(val!=="14" && val!==''){
+            $("#imgId").addClass("ipt_border_W")
+            $(".imgTip2").show()
+            $(".imgTip1").hide()
+        }
+        else{
+            $("#imgId").removeClass("ipt_border_W")
+            $(".imgTip2").hide()
+            $(".imgTip1").hide()
+        }
+    }
+    //手机号验证
+    else if(value===3){
+        let val = $("#yzmId").val();
+        if(val===''){
+            $("#yzmId").addClass("ipt_border_W")
+            $(".yzmTip").show();
+        }
+        else{
+            $("#yzmId").removeClass("ipt_border_W")
+            $(".yzmTip").hide()
+        }
+    }
+    //手机号邮箱验证
+    else if(value===4){
+        let val = $("#numberId").val();
+        if(val===''){
+            $("#numberId").addClass("ipt_border_W")
+            $(".numberTip1").show();
+            $(".numberTip2").hide();
+        }
+        else if(val!=='' &&
+            ((/^1[34578]\d{9}$/.test(val)) || /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/.test(val))){
+            $("#numberId").removeClass("ipt_border_W")
+            $(".numberTip1").hide();
+            $(".numberTip2").hide();
+
+        }
+        else{
+            $("#numberId").addClass("ipt_border_W")
+            $(".numberTip1").hide()
+            $(".numberTip2").show()
+        }
+    }
+    //密码验证
+    else if(value===5){
+        let val = $("#pwdId").val();
+        if(val===''){
+            $("#pwdId").addClass("ipt_border_W")
+            $(".pwdTip1").show();
+            $(".pwdTip2").hide();
+        }
+        else if(val!=='' && val!=="123456"){
+            $("#pwdId").addClass("ipt_border_W")
+            $(".pwdTip2").show();
+            $(".pwdTip1").hide();
+        }
+        else{
+            $("#pwdId").removeClass("ipt_border_W")
+            $(".pwdTip1").hide()
+            $(".pwdTip2").hide()
+        }
+    }
+
+    //判断两次密码是否一致
+    else if(value===6){
+        let val = $("#regPwdId1").val();
+        let val1 = $("#regPwdId2").val();
+        if(val===''){
+            $("#regPwdId1").addClass("ipt_border_W")
+            $(".regPwd1").show();
+            $(".regPwd2").hide();
+        }
+        else if(val!=='' && val1!=='' && val !==val1){
+            console.log(1111)
+            $("#regPwdId1").addClass("ipt_border_W")
+            $("#regPwdId2").addClass("ipt_border_W")
+            $(".regPwd2").show();
+            $(".regPwd1").hide();
+        }
+        else{
+            console.log(2222)
+            $("#regPwdId1").removeClass("ipt_border_W")
+            $("#regPwdId2").removeClass("ipt_border_W")
+            $(".regPwd2").hide();
+            $(".regPwd1").hide();
+            $(".regPwd3").hide();
+            $(".regPwd4").hide();
+        }
+    }
+    else if(value===7){
+        let val = $("#regPwdId1").val();
+        let val1 = $("#regPwdId2").val();
+        if(val1===''){
+            $("#regPwdId2").addClass("ipt_border_W")
+            $(".regPwd3").show();
+            $(".regPwd4").hide();
+        }
+        else if(val!=='' && val1!=='' && val !==val1){
+            $("#regPwdId1").addClass("ipt_border_W")
+            $("#regPwdId2").addClass("ipt_border_W")
+            $(".regPwd4").show();
+            $(".regPwd3").hide();
+        }
+        else{
+            console.log(2222)
+            $("#regPwdId1").removeClass("ipt_border_W")
+            $("#regPwdId2").removeClass("ipt_border_W")
+            $(".regPwd3").hide();
+            $(".regPwd4").hide();
+            $(".regPwd2").hide();
+            $(".regPwd1").hide()
+        }
+    }
+}
+
+
+//忘记密码
+function logLayerFun() {
+    $(".layerbg").show();
+    $(".layer").show();
+    $(".layer1").hide();
+
+}
+
+//关闭弹出框
+function cloLayerFun(){
+    $(".layerbg").hide()
+}
+
+</script>

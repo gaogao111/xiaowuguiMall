@@ -1,0 +1,848 @@
+.wrap{
+    background-color: #f9f9f9;
+    padding: 32px 0 80px;
+    margin-bottom: 500px;
+    width: 100%;
+    height: 100%;
+}
+.wrap>.content{
+
+}
+.wrap>.content>.contentLeft{
+    width: 231px;
+    background-color: #fff;
+    display: inline-block;
+}
+.wrap>.content>.contentLeft>.memberCenter{
+    /*height: 41px;*/
+    margin-left: 10px;
+    padding: 16px 0 5px 11px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bolder;
+    border-bottom: 2px solid #f9f9f9;
+
+}
+.wrap>.content>.contentLeft>.aboutMe{
+    padding-top: 5px;
+}
+.wrap>.content>.contentLeft>.aboutMe>li{
+    padding: 0 0 0 44px;
+    height: 32px;
+}
+.wrap>.content>.contentLeft>.orderInformation{
+    font-size: 14px;margin-left: 10px;
+    padding: 16px 0 5px 11px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bolder;
+    border-bottom: 2px solid #f9f9f9;
+}
+.wrap>.content>.contentLeft>.aboutOrderList {
+    padding-top: 5px;
+}
+.wrap>.content>.contentLeft>.aboutOrderList li{
+    padding: 0 0 0 44px;
+    height: 32px;
+}
+.wrap>.content>.contentRight{
+    float: right;
+    /*margin-right: 585px;*/
+    width: 945px;
+
+}
+.wrap>.content>.contentRight>.myAccount{
+    /*display: none;*/
+}
+.wrap>.content>.contentRight>.myAccount>.title{
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #333333;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation{
+    padding: 24px 25px 16px;
+    background-color: #fff;
+    height: 212px;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>div{
+    font-size: 14px;
+    color: #333;
+    font-weight: bolder;
+    width: 325px;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.call>span{
+    margin-left: 130px;
+    color: #999;
+    font-weight: normal;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>div:nth-child(2){
+    margin-top: 50px;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>p{
+    font-size: 14px;
+    color: #666;
+    width: 319px;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>p:nth-child(2){
+    margin: 0 0 35px;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.duihao{
+    width: 319px;
+    height: 24px;
+    margin-bottom: 11px;
+    position: relative;
+    margin-top: 15px;
+    vertical-align: middle;
+    line-height: 24px;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.duihao>.left{
+    width: 24px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #0d2347;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 2px;
+    /* margin-top: -11px; */
+    position: absolute;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.duihao>.middle{
+    width: 277px;
+    height: 3px;
+    background-color: #d9d9d9;
+    margin-top: 12px;
+    position: absolute;
+    /* z-index: 10; */
+    margin-left: 24px;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.duihao>.right{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #e8e8e8;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 295px;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.memberUp{
+    width: 319px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.memberUp span:nth-child(1){
+    color: #333333;
+    font-weight: bolder;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.memberUp span:nth-child(2){
+    color: #042f6a;
+    font-weight: bolder;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.numberCard{
+    width: 337px;
+    float: right;
+    margin-top: -180px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.numberCard>.front{
+    width: 337px;
+    height: 207px;
+    text-align: center;
+    display: none;
+}
+
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.numberCard>.front>img{
+    display: inline-block;
+    width: 337px;
+    height: 207px;
+
+
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.numberCard>.front>.cardInfo{
+    margin-top: -60px;
+
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.numberCard>.front>.cardInfo span{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #042f6a;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.numberCard>.front>.cardInfo p{
+    color: #333333;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.numberCard>.back{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.numberCard>.back span{
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    color: #042f6a;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.numberCard>.back>.pic{
+    width: 100%;
+    height: 100px;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.numberCard>.back>.pic img{
+    display: inline-block;
+
+    width: 100px;
+    height: 100px;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.numberCard>.back p{
+    color: black;margin-top: 9px;
+}
+.wrap>.content>.contentRight>.myAccount>.accountInformation>.numberCard>.back div{
+    margin: 16px 0 10px;
+    color: #999999;
+}
+.wrap>.content>.contentRight>.myAccount>.menu{
+    padding: 24px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.wrap>.content>.contentRight>.myAccount>.menu>ul{
+    /*position: relative;*/
+}
+.wrap>.content>.contentRight>.myAccount>.menu>ul>li{
+    width: 224px;
+    height: 52px;
+    float: left;
+
+}
+.wrap>.content>.contentRight>.myAccount>.menu>ul>li>.icon{
+    display: inline-block;
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+    float: left;
+    text-align: center;
+    background-color: red;
+    border-radius: 50%;
+    color: #000;
+    /*position: absolute;*/
+}
+.wrap>.content>.contentRight>.myAccount>.menu>ul>li>.icon i{
+    font-size: 16px;
+
+}
+.wrap>.content>.contentRight>.myAccount>.menu>ul>.personalInfo{
+
+}
+.wrap>.content>.contentRight>.myAccount>.menu>ul>.address{
+
+}
+
+.wrap>.content>.contentRight>.myAccount>.aboutMe{
+    width: 913px;
+    padding-top: 10px;
+    background-color: #f9f9f9;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.title{
+    display: inline-block;
+    padding: 14px 16px;
+    width: 420px;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.my{
+    background-color: #fff;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.ret{
+    background-color: #f9f9f9;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.myOrder{
+    /*display: none;*/
+    background-color: #fff;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.myOrder>.orderProd{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.myOrder>.orderProd>.aboutOrder{
+    font-size: 14px;
+    color: #333333;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.myOrder>.orderProd>.img{
+    width: 80px;
+    height: 107px;
+    display: inline-block;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.myOrder>.orderProd>.img img{
+    display: inline-block;
+    width: 80px;
+    height: 107px;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.myOrder>.orderProd>.info{
+    float: right;
+    width: 270px;
+    height: 173px;
+    color: #333333;
+    font-size: 14px;
+    margin-right: 550px;
+    color: #333333;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.myOrder>.orderProd>.info>.name{
+    margin: 8px 0 10px;
+
+
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.myOrder>.orderProd>.info>.model{
+    margin-bottom: 10px;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.myOrder>.orderProd>.status{
+    text-align: right;
+    margin-top: -170px;
+    width: 96px;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.myOrder>.orderProd>.status p{
+    color: #333333;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.myOrder>.orderProd>.status button{
+    padding: 0 16px;
+    background-color: #122147;
+    color: white;
+    width: 90px;
+    height: 30px;
+    display: inline-block;
+    margin-bottom: 15px;
+    border: 1px solid #122147;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.myOrder>.orderProd>.status span{
+    color: #333333;
+}
+.wrap>.content>.contentRight>.myAccount>.aboutMe>.return{
+    margin: 0px 0 16px 0;
+    padding: 30px 20px 20px;
+    background-color: #fff;
+    display: none;
+}
+.wrap>.content>.contentRight>.personInfo{
+    padding: 24px 16px;
+    color: #333333;
+    display: none;
+}
+.wrap>.content>.contentRight>.personInfo>.title{
+    margin-bottom: 16px;
+    margin-top: -25px;
+    font-size: 18px;
+    color: #333333;
+}
+.wrap>.content>.contentRight>.personInfo>.accountInfo{
+    background-color: #fff;
+    padding: 24px 16px;
+}
+.wrap>.content>.contentRight>.personInfo>.accountInfo>.title{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.wrap>.content>.contentRight>.personInfo>.accountInfo>.phone{
+    font-size: 14px;
+    margin-top: 24px;
+    color: #999999;
+}
+.wrap>.content>.contentRight>.personInfo>.accountInfo>.phone i{
+    color: #333333;
+}
+.wrap>.content>.contentRight>.personInfo>.accountInfo>span{
+
+}
+.wrap>.content>.contentRight>.personInfo>.accountInfo>span>.littleIcon{
+    width: 14px;
+    height: 14px;
+    background-color: red;
+}
+.wrap>.content>.contentRight>.personInfo>.accountInfo>span>.littleIcon i{
+    font-size: 14px;
+}
+.wrap>.content>.contentRight>.personInfo>.accountInfo>span>.change{
+    margin-left: 20px;
+}
+.wrap>.content>.contentRight>.personInfo>.personData{
+    margin-top: 10px;
+    padding: 24px 16px;
+    background-color: #fff;
+
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.title{
+    color: #333333;
+    font-weight: bolder;
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.title>span{
+    margin-left: 16px;
+    font-weight: normal;
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.userName{
+    color: #333333;
+    padding-top: 10px;
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.userName span>.tip{
+    color: #999;
+    margin-left: 4px;
+
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.userName input{
+    background-color: #fff;
+    padding: 0 12px;
+    width: 392px;
+    height: 36px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.sex{
+    color: #333333;
+    padding-top: 10px;
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.sex span>.tip{
+    color: #999;
+    margin-left: 4px;
+
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.sex>.choose{
+    margin-top: 10px;
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.sex>.choose>.man {
+    margin-left: 80px;
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.birthday{
+
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.birthday>.title{
+    margin: 21px 0 9px;
+    color: #333333;
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.birthday>.title>.tip{
+    margin-left: 4px;
+    color: #999;
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.birthday>.title>#data{
+
+}
+.wrap>.content>.contentRight>.personInfo>.personData>.birthday>.title>#data select{
+    width: 120px;
+    display: inline-block;
+    height: 32px;
+    padding: 0 13px;
+    margin-right: 10px;
+
+}
+.wrap>.content>.contentRight>.address{
+    padding: 24px 16px;
+    color: #333333;
+    display: none;
+}
+.wrap>.content>.contentRight>.address>.title{
+    margin-bottom: 16px;
+    margin-top: -25px;
+    font-size: 18px;
+    color: #333333;
+}
+.wrap>.content>.contentRight>.address>.detailAdd{
+    background-color: #fff;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    min-height: 416px;
+}
+.wrap>.content>.contentRight>.address>.detailAdd>.title{
+    padding: 15px 0;
+}
+.wrap>.content>.contentRight>.address>.detailAdd>.title>.receiver{
+    padding-right: 58px;
+    margin-left: 165px;
+}
+.wrap>.content>.contentRight>.address>.detailAdd>.title>.location{
+
+    width: 272px;
+    display: inline-block;
+}
+.wrap>.content>.contentRight>.address>.detailAdd>.title>.cellPhone{
+    padding-right: 128px;
+}
+.wrap>.content>.contentRight>.address>.detailAdd>.title>.handle{
+
+}
+.wrap>.content>.contentRight>.address>.detailAdd>.message{
+     background-color: #f5f5f5;
+    padding: 9px 0;
+
+ }
+.wrap>.content>.contentRight>.address>.detailAdd>.message>.default{
+
+    padding: 0 60px 0 16px;
+    vertical-align: center;
+}
+.wrap>.content>.contentRight>.address>.detailAdd>.message>.default>input{
+    margin-right: 10px;
+}
+.wrap>.content>.contentRight>.address>.detailAdd>.message>.name{
+    display: inline-block;
+    width: 100px;
+    vertical-align: center;
+}
+.wrap>.content>.contentRight>.address>.detailAdd>.message>.location{
+    display: inline-block;
+    width: 272px;
+    /*padding-right: 20px;*/
+}
+.wrap>.content>.contentRight>.address>.detailAdd>.message>.cell{
+    display: inline-block;
+    width: 180px;
+    line-height: 1;
+}
+.wrap>.content>.contentRight>.address>.detailAdd>.message>.operate>.edit{
+    margin-right: 25px;
+}
+.wrap>.content>.contentRight>.address>.detailAdd>button{
+    width: 220px;
+    height: 32px;
+    padding: 0 16px;
+    color: #122147;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #122147;
+    margin-left: 330px;
+    margin-top: 20px;
+}
+.wrap>.content>.contentRight>.integral{
+    display: none;
+}
+.wrap>.content>.contentRight>.integral>.title{
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #333333;
+}
+.wrap>.content>.contentRight>.integral>.title>span{
+    font-size: 14px;
+    float: right;
+}
+.wrap>.content>.contentRight>.integral>.text{
+    background-color: #fff;
+}
+.wrap>.content>.contentRight>.integral>.text>.current{
+    font-size: 14px;
+    color: #999999;
+    padding: 20px 16px 12px;
+}
+.wrap>.content>.contentRight>.integral>.text>.current>button{
+    float: right;
+    color: #042f6a;
+    margin-top: -8px;
+    padding: 6px 12px;
+    border: 1px solid #042f6a;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.wrap>.content>.contentRight>.integral>.text>.tip{
+    font-size: 14px;
+    padding: 0 16px;
+    color: #999999;
+    text-align: right;
+    font-weight: 400;
+}
+.wrap>.content>.contentRight>.integral>.text>.record{
+
+}
+.wrap>.content>.contentRight>.integral>.text>.record>.title{
+margin-top: 18px;
+    padding: 0 16px;
+    border-bottom: 1px solid #f5f5f5;
+    line-height: 35px;
+    height: 35px;
+}
+.wrap>.content>.contentRight>.integral>.text>.record>.title span{
+    margin-right: 56px;
+    padding: 8px 0;
+    color: #999999;
+}
+.wrap>.content>.contentRight>.integral>.text>.record>.con{
+    color: #333333;
+    padding: 16px;
+}
+
+
+
+.wrap>.content>.contentRight>.youHuiQuan{
+    display: none;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.title{
+    color: #333333;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.coupons{
+    height: 44px;
+    line-height: 44px;
+    background-color: #fff;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.coupons>span{
+    background-color: #fff;
+    padding-left: 16px;
+    color: #333333;
+    display: inline-block;
+    width: 454px;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.use{
+    padding: 16px 16px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+    color: #999999;
+    height: 40px;
+    line-height: 40px;
+
+}
+.wrap>.content>.contentRight>.youHuiQuan>.use>span:nth-child(2){
+    margin-left: 50px;
+
+}
+.wrap>.content>.contentRight>.youHuiQuan>.use>.rule{
+    float: right;
+    color: #333333;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox{
+    padding: 20px 0 20px 16px;
+    background-color: #fff;
+    display: none;
+
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox>.compon{
+    width: 293px;
+    /*display: none;*/
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox>.compon>.componTop{
+    padding: 12px;
+    background-color: #fd737a;
+    color: white;
+    height: 106px;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox>.compon>.componTop>.price{
+    margin-bottom: 12px;
+    height: 36px;
+    font-size: 18px;
+    width: 293px;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox>.compon>.componTop>.price>b{
+    font-size: 36px;
+    font-weight: normal;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox>.compon>.componTop>.price>span{
+    display: inline-block;
+    width: 36px;
+    font-size: 12px;
+    background: rgba(255,255,255,0.95);
+    padding: 6px 8px;
+    float: right;
+    margin-right: 12px;
+    margin-top: 10px;
+    color: #fd737a;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox>.compon>.componTop>.componName{
+    margin-bottom: 8px;
+
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox>.compon>.componTop>.validity{
+    margin-bottom: 10px;
+    font-size: 12px;
+ }
+.wrap>.content>.contentRight>.youHuiQuan>.componBox>.compon>.componBtm{
+    padding: 12px;
+    border-top: 1px dashed white;
+    background-color: #f9f9f9;
+    height: 122px;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox>.compon>.componBtm>div{
+    color: #999;
+    font-size: 12px;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox>.compon>.componBtm>div i{
+    color: #333;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox>.compon>.componBtm>.state{
+    margin-bottom: 9px;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox>.compon>.componBtm>.numberOfUse{
+    margin-bottom: 12px;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox>.compon>.componBtm>button{
+    width: 86px;
+    color: #999999;
+    background-color: #fff;
+    margin-left: 90px;
+    display: inline-block;
+    height: 24px;
+    border: 1px solid #d9d9d9;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox2{
+    padding: 16px;
+    background-color: #fff;
+}
+.wrap>.content>.contentRight>.youHuiQuan>.componBox2 .use{
+    display: none;
+}
+.wrap>.content>.contentRight>.myOrder{
+    display: none;
+}
+.wrap>.content>.contentRight>.myOrder>.title{
+    color: #333333;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+.wrap>.content>.contentRight>.myOrder>.aboutOrderSta{
+    color: #333333;
+}
+.wrap>.content>.contentRight>.myOrder>.aboutOrderSta>span{
+    display: inline-block;
+    width: 153.6px;
+    font-size: 14px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem{
+    padding: 0 16px 16px;
+    background-color: #fff;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item{
+    padding: 24px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #f9f9f9;
+    height: 145.8px;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemLeft{
+    width: 457.6px;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemLeft>.sequence{
+    margin-bottom: 24px;
+    color: #333333;
+    height: 16.8px;
+
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemLeft>.sequence>span{
+    margin-right: 16px;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemLeft>.itemDetail{
+    margin-left: 10px;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemLeft>.itemDetail>.tupian{
+    width: 80px;
+    height: 104px;
+    float: left;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemLeft>.itemDetail>.tupian img{
+    width: 80px;
+    height: 104px;
+    display: inline-block;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemLeft>.itemDetail>.itemInfo{
+    width: 254.2px;
+    margin-left: 100px;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemLeft>.itemDetail>.itemInfo p{
+    margin-bottom: 8px;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemLeft>.itemDetail>.itemInfo p:nth-child(2){
+    margin-bottom: 16px;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemLeft>.itemDetail>.itemInfo span{
+    color: #999;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemLeft>.itemDetail>.itemInfo span i:nth-child(1){
+    color: #333333;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemLeft>.itemDetail>.itemInfo span i:nth-child(2){
+    text-decoration: line-through;
+    margin-left: 2px;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemLeft>.itemDetail>.itemInfo span i:nth-child(3){
+    margin-left: 10px;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemRight{
+    width: 200.7px;
+    height: 144.8px;
+    padding-bottom: 14px;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemRight>.top{
+    margin-bottom: 24px;
+    width: 201px;
+    /*margin-left: -10px;*/
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemRight>.top span:nth-child(1){
+    margin-right: 8px;
+    display: inline-block;
+    width: 64.3px;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemRight>.top span:nth-child(2){
+
+    display: inline-block;
+    width: 128.5px;
+    float: right;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemRight>.canceled{
+    margin-bottom: 24px;
+    text-align: right;
+}
+.wrap>.content>.contentRight>.myOrder>.listItem>.item>.itemRight>.examine{
+    /*margin-top: 24px;*/
+    text-align: right;
+    margin-top: 65px;
+}
+.wrap>.content>.contentRight .mytuihuanhuo{
+
+}
+.wrap>.content>.contentRight .youHuiQuan>.componBox>.used1{
+    display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col{
+    color: #042f6a !important;
+    border-bottom: 2px solid #042f6a;
+}
+.col1{
+    background-color: #fff;
+}
+.type{
+    font-weight: bolder;
+    background-color: #f9f9f9;
+    border-left: 5px solid #122147;
+}

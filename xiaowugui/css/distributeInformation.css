@@ -1,0 +1,356 @@
+.wrap{
+
+}
+.wrap>.header{
+    padding: 16px 0;
+    font-size: 14px;
+    /*margin: 0 160px;*/
+    height: 43px;
+    line-height: 43px;
+    border-bottom: 2px solid #cccccc;
+}
+.wrap>.header>.headerLeft{
+    float: left;
+    color: #000;
+}
+.wrap>.header>.headerCenter{
+    display: inline-block;
+    width: 52px;
+    height: 40px;
+    margin-left: 465px;
+}
+.wrap>.header>.headerRight{
+    float: right;
+    color: #333;
+}
+.wrap>.header>.headerRight>span:nth-child(1){
+    margin-right: 20px;
+}
+.wrap>.header>.headerCenter>img{
+    display: inline-block;
+    width: 52px;
+    height: 40px;
+}
+.wrap>.content{
+    padding: 20px 0 0 0;
+}
+.wrap>.content>.contentLeft{
+    min-width: 689px;
+    max-width: 842px;
+}
+.wrap>.content>.contentLeft>.title{
+    max-width: 82px;
+    min-width: 634px;
+    height: 50px;
+    font-size: 18px;
+    color: #333;
+    background-color: #f5f5f5;
+    padding-left: 12px;
+    line-height: 50px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation{
+    width: 572px;
+    padding: 24px 0 0 0;
+    font-size: 14px;
+
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.aboutAddressee{
+    height: 75px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.aboutAddressee>span{
+    display: inline-block;
+    width: 278px;
+    height: 75px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.aboutAddressee>.addressee{
+
+    float: left;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.aboutAddressee>.phone{
+    float: right;
+    margin-left: 10px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.aboutAddressee>span>p{
+    color: #333333;
+    margin-bottom: 12px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.aboutAddressee>span>input{
+    display: inline-block;
+    background-color: #fff;
+    height: 36px;
+    padding: 0 12px;
+    width: 254px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.chooseAddress{
+    width: 100%;
+
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.chooseAddress>.threeCheck{
+    margin-top: 24px;
+    margin-bottom: 12px;
+    height: 17px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.chooseAddress>.threeCheck>span{
+    margin-right: 10px;
+    display: inline-block;
+    width: 180px;
+    height: 17px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.chooseAddress>.threeCheck>span:nth-child(3){
+    margin-right: 0px !important;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.chooseAddress>.choosePlease{
+
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.chooseAddress>.choosePlease>select{
+    width: 154px;
+    height: 34px;
+    padding: 0 12px;
+    margin-right: 35px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.chooseAddress>.choosePlease>select:nth-child(3){
+    margin-right: 0px !important;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.detailAddress{
+    width: 572px;
+    margin-top: 24px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.detailAddress>p{
+    color: #333333;
+    margin-bottom: 12px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.detailAddress>input{
+    padding: 6px 12px;
+    width: 572px;
+    height: 78px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.modeOfDistribution{
+    margin: 40px 12px;
+    font-size: 14px;
+    color: #333333;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.modeOfDistribution p{
+
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.modeOfDistribution>.carriage{
+    margin: 16px 0 0;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.modeOfDistribution>.carriage span:nth-child(2){
+    margin-left: 56px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.orderList{
+    margin-top: 50px;
+    max-width: 842px;
+    min-width: 634px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.orderList>.title{
+    padding-left: 12px;
+    color: #333333;
+    font-size: 18px;
+    background-color: #f5f5f5;
+    height: 50px;
+    line-height: 50px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.orderList>.list{
+    overflow-y: scroll;
+    margin-top: 10px;
+    height: 110px;
+
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.orderList>.list>.orderListProducts{
+    vertical-align: top;
+    /*height: 634px;*/
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.orderList>.list>.orderListProducts>.goodsPicture{
+    width: 80px;
+    height: 106px;
+    margin-right: 5px;
+    display: inline-block;
+    /*float: left;*/
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.orderList>.list>.orderListProducts>.goodsPicture img{
+    display: inline-block;
+    width: 80px;
+    height: 106px;
+}
+.wrap>.content>.contentLeft>.addresseeInformation>.orderList>.list>.orderListProducts>.aboutStandard{
+    display: inline-block;
+    width: 250px;
+    /*height: 106px;*/
+    float: right;
+    margin-right: 230px;
+}
+.contentLeft>.addresseeInformation>.orderList>.list>.orderListProducts>.aboutStandard>p{
+
+    margin-bottom: 5px;
+    color: #333333;
+}
+.contentLeft>.addresseeInformation>.orderList>.list>.orderListProducts>.aboutStandard>p:nth-child(2){
+    margin-bottom: 30px;
+}
+.contentLeft>.addresseeInformation>.orderList>.list>.orderListProducts>.aboutStandard>span{
+    margin: 30px 0 5px 0;
+    color: #999;
+}
+.contentLeft>.addresseeInformation>.orderList>.list>.orderListProducts>.price{
+    float: right;
+    margin-top: -110px;
+}
+.contentLeft>.addresseeInformation>.orderList>.list>.orderListProducts>.price>span{
+    font-size: 14px;
+    color: #333333;
+}
+.contentLeft>.addresseeInformation>.orderList>.list>.orderListProducts>.price>span:nth-child(1){
+    margin-right: 20px;
+}
+
+
+
+
+
+.wrap>.content>.right{
+    float: right;
+    width: 334px;
+
+    margin-top: -700px;
+}
+.wrap>.content>.right>.rightTop{
+    background-color: #f5f5f5;
+    width: 334px;
+    padding: 16px;
+    color: #333333;
+    background-color: #f5f5f5;
+
+}
+.wrap>.content>.right>.rightTop>.title{
+    padding-bottom: 16px;
+}
+.wrap>.content>.right>.rightTop>.title>span{
+
+}
+.wrap>.content>.right>.rightTop>.title>span:nth-child(1){
+
+}
+.wrap>.content>.right>.rightTop>.title>span:nth-child(2){
+    float: right;
+    font-size: 12px;
+}
+.wrap>.content>.right>.rightTop>.aboutPrice{
+    padding-top: 15px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #999999;
+    border-top: 1px solid #999999;
+}
+.wrap>.content>.right>.rightTop>.aboutPrice>.totalPrice{
+    margin-bottom: 16px;
+}
+.wrap>.content>.right>.rightTop>.aboutPrice>.totalPrice>span:nth-child(1){
+    /*float: left;*/
+}
+.wrap>.content>.right>.rightTop>.aboutPrice>.totalPrice>span:nth-child(2){
+    float: right;
+}
+.wrap>.content>.right>.rightTop>.aboutPrice>.discount{
+    margin-bottom: 16px;
+    color: #be200a;
+}
+.wrap>.content>.right>.rightTop>.aboutPrice>.discount>span:nth-child(1){
+
+}
+.wrap>.content>.right>.rightTop>.aboutPrice>.discount>span:nth-child(2){
+    float: right;
+}
+.wrap>.content>.right>.rightTop>.aboutPrice>.carriage{
+
+}
+.wrap>.content>.right>.rightTop>.aboutPrice>.carriage span:nth-child(2){
+    float: right;
+}
+.wrap>.content>.right>.rightTop>.indentMoney{
+
+}
+.wrap>.content>.right>.rightTop>.indentMoney>.indentTotalMoney{
+    padding-bottom: 16px;
+    margin-top: 20px;
+}
+.wrap>.content>.right>.rightTop>.indentMoney>.indentTotalMoney span:nth-child(2){
+    float: right;
+}
+.wrap>.content>.right>.rightTop>.indentMoney>p{
+    font-size: 12px;
+    color: #333333;
+    text-align: right;
+}
+.wrap>.content>.right>.rightTop>.indentMoney>p a{
+    color: #333333;
+}
+.wrap>.content>.right>.rightTop>.indentMoney>.closeAnAccount {
+    padding: 0 24px;
+    background-color: #122147;
+    color: white;
+    height: 40px;
+    width: 302px;
+    margin-top: 30px;
+    border: 1px solid #122147;
+    margin-left: 15px;
+}
+.wrap>.content>.right>.rightBottom{
+    background-color: #fff;
+    margin-top: 34px;
+    padding: 21px 16px 24px;
+    border: 1px solid #999999;
+}
+.wrap>.content>.right>.rightBottom>.column{
+
+}
+.wrap>.content>.right>.rightBottom>.column>.title{
+    padding-bottom: 16px;
+    font-size: 16px;
+    color: #333333;
+    height: 35.2px;
+}
+.wrap>.content>.right>.rightBottom>.column>.title .span1{
+    float: right;
+    font-size: 20px;
+    display: none;
+}
+.wrap>.content>.right>.rightBottom>.column>.title>.span2{
+    float: right;
+    font-size: 20px;
+
+}
+.wrap>.content>.right>.rightBottom>.column>.content{
+    padding-bottom: 15px;
+    display: none;
+}
+.wrap>.content>.right>.rightBottom>.column>.content>.sp{
+    /*margin-bottom: 10px;*/
+}
+.wrap>.content>.right>.rightBottom>.column>.content>.sp span{
+    color: #999999;
+    margin-top: 10px;
+}
+.wrap>.content>.right>.rightBottom>.column>.content>p{
+    margin: 17px 0 10px ;
+}
+.wrap>.content>.right>.rightBottom>.column>.content>.number{
+    margin: 10px 0;
+}
+.wrap>.content>.right>.rightBottom>.column>.content>.number span{
+    color: #999999;
+}
+
+
+
+
+
+
+
+
+
+disNone{
+    display: none;
+}
+disBlock{
+    display: block;
+}

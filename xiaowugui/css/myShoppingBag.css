@@ -1,0 +1,336 @@
+.wrap>.title{
+    width: 100%;
+    /*height: 27px;*/
+    font-size: 24px;
+    color: #333;
+}
+.wrap>.title>span{
+    font-size: 16px;
+    margin-left: 16px;
+}
+.wrap>.left{
+    width: 819px;
+}
+.wrap>.left>.standard{
+    height: 40px;
+    width: 819px;
+    color: #333;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.wrap>.left>.standard>.checkAll{
+    display: inline-block;
+    width: 190px;
+    line-height: 40px;
+}
+.wrap>.left>.standard>.property{
+    display: inline-block;
+    width: 165px;
+    line-height: 40px;
+}
+.wrap>.left>.standard>.count{
+    display: inline-block;
+    width: 133px;
+    line-height: 40px;
+}
+.wrap>.left>.standard>.sum{
+    display: inline-block;
+    width: 28px;
+    line-height: 40px;
+}
+.wrap>.left>.markPic{
+    width: 818px;
+    height: 51px;
+    padding: 0 14px 0 12px;
+    background-color: #f5f5f5;
+    line-height: 51px;
+    border-top: 1px solid #d9d9d9;
+}
+.wrap>.left>.markPic img{
+    width: 26px;
+    height: 20px;
+}
+.wrap>.left>.shoppingCollect{
+    width: 807px;
+    padding: 20px 0;
+    margin: 0 12px 0 24px;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectLeft{
+    float: left;
+     width: 178px;
+     height: 173px;
+ }
+.wrap>.left>.shoppingCollect>.shoppingCollectLeft input{
+    margin-right: 16px;
+    vertical-align: top;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectLeft img{
+    display: inline-block;
+    width: 130px;
+    height: 173px;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectMid{
+    display: inline-block;
+    width: 270px;
+    height: 173px;
+    color: #333333;
+    font-size: 14px;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectMid p:nth-child(1){
+    margin-bottom: 8px;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectMid p:nth-child(2){
+    margin-bottom: 24px;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectMid p:nth-child(3) span{
+    color: #999;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectMid p:nth-child(3){
+    margin-bottom: 8px;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectMid p:nth-child(4){
+    margin-bottom: 8px;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectMid p:nth-child(4) span{
+    color: #999;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectMid p:nth-child(5){
+    margin-bottom: 15px;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectMid p:nth-child(5) span{
+    color: #999;
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectMid>.edit{
+    margin-right: 41px;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectRight{
+     float: right;
+ }
+
+.wrap>.left>.shoppingCollect>.shoppingCollectRight .quantity{
+    width: 106px;
+    height: 32px;
+    margin-left: -150px;
+
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectRight .quantity .reduceNum{
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border: 1px solid #999;
+    /*border-bottom: 1px solid #999;*/
+    /*border-top: 1px solid #999;*/
+    /*border-right: none;*/
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectRight .quantity .addNum{
+    width: 32px;
+    height: 32px;
+    float: right;
+    background-color: #fff;
+    border: 1px solid #999;
+    margin-right: 2px;
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectRight .quantity .quantify{
+    width: 14px;
+    text-align: center;
+    padding: 5px 12px;
+    margin-left: -5px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: none;
+    height: 20px;
+
+}
+.wrap>.left>.shoppingCollect>.shoppingCollectRight>.price{
+    float: right;
+    margin-right: 5px;
+    margin-top: -36px;
+    font-size: 14px;
+    color: #999;
+}
+.wrap>.right{
+    margin-top: -312px;
+    float: right;
+
+}
+.wrap>.right>.rightTop{
+    background-color: #f5f5f5;
+    width: 334px;
+    padding: 16px;
+    margin-top: -167px;
+
+}
+.wrap>.right>.rightTop>.title{
+    padding-bottom: 16px;
+    border-bottom: 1px solid #d9d9d9;
+    height: 25px;
+}
+.wrap>.right>.rightTop>.title>span{
+
+}
+.wrap>.right>.rightTop>.title>span:nth-child(1){
+    float: left;
+    font-size: 18px;
+    color: #333;
+}
+.wrap>.right>.rightTop>.title>span:nth-child(2){
+    float: right;
+    font-size: 12px;
+    color: #333333;
+}
+.wrap>.right>.rightTop>.aboutPrice{
+    margin-top: 15px;
+    font-size: 14px;
+    width: 100%;
+    padding-bottom: 16px;
+    height: 133px;
+}
+.wrap>.right>.rightTop>.aboutPrice>.totalPrice{
+    margin-bottom: 10px;
+    color: #333333;
+    display: block;
+    /*height: 30px;*/
+    /*width: 100%;*/
+}
+.wrap>.right>.rightTop>.aboutPrice>.totalPrice>span:nth-child(1){
+    /*float: left;*/
+}
+.wrap>.right>.rightTop>.aboutPrice>.totalPrice>span:nth-child(2){
+    float: right;
+}
+.wrap>.right>.rightTop>.aboutPrice>.discount{
+    margin-bottom: 15px;
+    color: #be200a;
+    display: block;
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9;
+    /*clear: both;*/
+}
+.wrap>.right>.rightTop>.aboutPrice>.discount>span:nth-child(1){
+    /*float: left;*/
+}
+.wrap>.right>.rightTop>.aboutPrice>.discount>span:nth-child(2){
+    float: right;
+}
+.wrap>.right>.rightTop>.aboutPrice>.useDiscount{
+    /*padding-top: 15px;*/
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 30px;
+}
+.wrap>.right>.rightTop>.aboutPrice>.useDiscount input{
+    width: 240px;
+    height: 32px;
+    padding: 0 12px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+.wrap>.right>.rightTop>.aboutPrice>.useDiscount button{
+    width: 52px;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #333333;
+    background-color: #fff;
+    margin-left: 5px;
+}
+.wrap>.right>.rightTop>.indentMoney{
+    padding: 15px 0 0 0;
+}
+.wrap>.right>.rightTop>.indentMoney>.indentTotalMoney{
+    padding-bottom: 30px;
+}
+.wrap>.right>.rightTop>.indentMoney>.indentTotalMoney span:nth-child(2){
+    font-size: 18px;
+    float: right;
+}
+.wrap>.right>.rightTop>.indentMoney>.closeAnAccount {
+    width: 302px;
+    padding: 0 24px;
+    height: 40px;
+    background-color: #0d2347;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    color: white;
+    font-size: 16px;
+    border-color: #0d2347;
+    border-radius: 5px;
+    margin-left: 17px;
+}
+.wrap>.right>.rightTop>.indentMoney>.goOn{
+    width: 302px;
+    padding: 0 24px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    color: #0d2347;
+    font-size: 16px;
+    border: 1px solid #0d2347;
+    border-radius: 5px;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+
+
+
+
+/*弹出框*/
+.layerbg{
+    background-color: rgba(0, 0, 0, .3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.layerbg>.layer{
+    text-align: center;
+    width: 335px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -92px 0 20px -167px;
+
+}
+.layerbg>.layer>.top{
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 26px;
+    padding: 0 10px;
+}
+.layerbg>.layer>.middle{
+    color: #666;
+    margin-bottom: 26px;
+    padding: 0 10px;
+}
+.layerbg>.layer>.middle>p{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.layerbg>.layer>.payment{
+
+}
+.layerbg>.layer>.payment>button{
+    padding: 0 16px;
+    width: 148px;
+    height: 36px;
+    border: 1px solid #0d2347;
+}
+.layerbg>.layer>.payment>button:nth-child(1){
+    background-color: #fff;
+    color: #0d2347;
+}
+.layerbg>.layer>.payment>button:nth-child(2){
+    background-color: #0d2347;
+    color: #fff;
+}

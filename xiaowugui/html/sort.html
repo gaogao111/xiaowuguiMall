@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分类页面</title>
+    <link rel="stylesheet" href="../css/swiper.css">
+    <link rel="stylesheet" href="../css/common/common.css">
+    <link rel="stylesheet" href="../css/sort.css">
+    <link rel="stylesheet" href="../css/jslider.css">
+    <link rel="stylesheet" href="../css/jslider.plastic.css">
+
+    <script src="../plugin/jquery1.js"></script>
+    <script src="../plugin/swiper.js"></script>
+    <script src="../plugin/jquery.dependClass.js"></script>
+    <script src="../plugin/jquery.slider-min.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+<div class="wrap w1200">
+    <div class="banner">
+        <img src="https://uxresources.baozun.com/prod/88000136/20200205/D115F0F3093C4327249B55DD2FCEABFE.jpg" alt="">
+    </div>
+    <div class="wrapMain">
+        <div class="wrapMainTop">
+            <span class="topSpan">
+                <span class="topsPanOne">男装</span>
+                <span class="topsPanTwo">[共 <span>1000</span>件商品]</span>
+            </span>
+        </div>
+        <div class="wrapMainContent">
+            <div class="contentLeft l_left">
+                <div class="contentLeftTop">
+                    <span>男装</span>
+                    <span>+</span>
+                </div>
+                <ul class="contentLeftUl">
+                    <li>徽标logo系列</li>
+                    <li>卫衣</li>
+                    <li>针织衫/毛衣</li>
+                    <li>外套</li>
+                    <li>1969牛仔裤</li>
+                    <li>休闲裤</li>
+                    <li>轻盈卡其</li>
+                    <li>T恤/背心</li>
+                    <li>Polo衫</li>
+                    <li>衬衫</li>
+                    <li>中短裤</li>
+                    <li>家居服/睡衣</li>
+                    <li>GapFit运动系列</li>
+                    <li>内裤/袜子</li>
+                    <li>配饰</li>
+                </ul>
+                <div class="choosePrice" style="margin-top: 20px">
+                    <span>价格筛选</span>
+                    <span id="minus">
+                        <!--<i class="minus1 l_float">+</i>-->
+                        <i class="minus2 r_float">-</i>
+                    </span>
+                </div>
+                <div class="price_slider">
+                    <div class="layout">
+                        <div class="layout-slider" style="width: 100%;">
+                            <span>
+                                <input class="Slider1" type="slider" name="price" value="60;750"/>
+                            </span>
+                        </div>
+
+                        <script type="text/javascript" charset="utf-8">
+                            jQuery(".Slider1").slider(
+                                { from: 60, to: 750,
+                                    step: 1, smooth: true,
+                                    round: 0, dimension: "&nbsp;",
+                                    skin: "plastic" });
+                            $(".jslider-pointer").mouseup(function () {
+                                var min = $(".jslider-value")[0].innerText
+                                var max = $(".jslider-value")[1].innerText
+                                $("#minPriceId").val(min)
+                                $("#maxPriceId").val(max)
+
+                                console.log($(".jslider-value")[0].innerText)
+                                console.log($(".jslider-value")[1].innerText)
+                            })
+
+
+
+
+                        </script>
+                    </div>
+                    <div class="price_area" style="width: 180px">
+                        <span class="min_price" style="display: inline-block; width: 80px">
+                            <input id="minPriceId" type="text" value="60" style="width: 80px">
+                            <span>￥</span>
+                        </span>
+                        -
+                        <span class="max_price" style="display: inline-block; width: 80px">
+                            <input id="maxPriceId" type="text" value="750"style="width: 80px" >
+                            <span>￥</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="contentRight r_float">
+                <div class="contentRightTop">
+                    <ul class="left">
+                        <li><input type="checkbox">新品</li>
+                        <li><input type="checkbox">减价</li>
+                        <li><input type="checkbox">超值购</li>
+                        <li class="order">排序
+                            <i class="iconfont jiantou"></i>
+                        </li>
+                    </ul>
+                    <div class="right">
+
+                        <ul>
+                            <li>默认</li>
+                            <li>新品</li>
+                            <li>销量从高到低</li>
+                            <li>价格又低到高</li>
+                            <li>价格由高到低</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                <ul class="contentRightList">
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                    <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <div class="newProduct">新品</div>
+                    </li>
+                    <li onclick="goGoodsDetailFun()">
+                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/CECE8E830B217C8EF45BD70B0EF1A799.jpg?x-oss-process=image/resize,m_pad,w_250,h_325" alt="">
+                        <div class="goodsIntroduce">男装|圆领长袖套头卫衣</div>
+                        <div class="price">
+                            <span>￥174.50</span>
+                            <span> <del>￥349.00</del></span>
+                        </div>
+                        <p class="newProduct">新品</p>
+                    </li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <script>
+        $("#header").load("../common/header.html")
+        $("#footer").load("common/footer.html")
+
+
+
+        function goGoodsDetailFun(){
+            window.location.href=`goodsDetail.html`
+        }
+
+
+
+
+        $(".order").click(function(){
+            $(".right").css("display","block")
+        })
+    </script>
+</body>
+</html>

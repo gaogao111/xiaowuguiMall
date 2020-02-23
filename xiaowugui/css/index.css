@@ -1,0 +1,26 @@
+
+.wrap{
+    /*width: 100%;*/
+}
+.wrap>.bigPic_a{
+    height: 665px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.wrap>.bigPic_a>.bigPic_img{
+    height: 665px;
+}
+.wrap>.discountPic{
+    display: inline-block;
+    width: 1200px;
+    height: 346px;
+    margin-left: 160px;
+    padding-top: 40px;
+}
+
+.wrap>.timeLimit{
+    display: inline-block;
+    height: 140px;
+    padding-top: 30px;
+    margin-left: 150px;
+}

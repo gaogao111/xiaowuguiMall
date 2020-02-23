@@ -1,0 +1,233 @@
+#exzoom{
+    width: 400px;
+    margin: 20px auto;
+}
+.wraper>.bannerLink{
+    height: 12px;
+    padding: 24px 0;
+}
+.wraper>.bannerLink>span{
+    font-size: 12px;
+    color: #333;
+}
+.wraper>.goods{
+    overflow: hidden;
+}
+.wraper>.goods>.goodsImg{
+    width: 580px;
+    height: 500px;
+    float: left;
+}
+.wraper>.goods>.goodsOption{
+    float: right;
+    width: 600px;
+    padding-left: 20px;
+}
+.wraper>.goods>.goodsOption>.title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 8px;
+}
+.wraper>.goods>.goodsOption>.kuanHao{
+    font-size: 12px;
+    color: #cccccc;
+    margin: 0 0 24px;
+}
+.wraper>.goods>.goodsOption>.activiity{
+    font-size: 12px;
+    border-left: 2px solid #be200a;
+    background-color: #f9f9f9;
+}
+.wraper>.goods>.goodsOption>.activiity span{
+    color: #be200a;
+    margin: 0 10px;
+    left: 10px;
+    top: 0;
+    line-height: 28px;
+}
+.wraper>.goods>.goodsOption>.price{
+    margin: 16px 0;
+}
+.wraper>.goods>.goodsOption>.price span:nth-child(1){
+     font-size: 24px;
+     color: #be200a;
+     font-weight: 700;
+ }
+.wraper>.goods>.goodsOption>.price span:nth-child(2){
+    font-size: 14px;
+    color: #999;
+    font-weight: 400;
+    margin-left: 6px;
+    text-decoration: line-through;
+}
+.wraper>.goods>.goodsOption>.goodsColor{
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.wraper>.goods>.goodsOption>.goodsColor span{
+    color: #333;
+    font-size: 14px;
+}
+.wraper>.goods>.goodsOption>.goodsPicture span:nth-child(1){
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    /*border-radius: 3px;*/
+    margin-right: 12px;
+    border: 1px solid #333;
+    text-align: center;
+}
+.wraper>.goods>.goodsOption>.goodsPicture span:nth-child(1) img{
+    width: 20px;
+    height: 20px;
+    line-height: 24px;
+    margin-top: 2px;
+}
+.wraper>.goods>.goodsOption>.goodsSize{
+    color: #000;
+    font-weight: bold;
+}
+.wraper>.goods>.goodsOption>.goodsSize>.goodsSizeTitle{
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 12px;
+    font-weight: 400;
+    padding-top: 16px;
+}
+.wraper>.goods>.goodsOption>.goodsSize>.goodsSizeListUl{
+    font-size: 12px;
+    color: #999999;
+}
+.wraper>.goods>.goodsOption>.goodsSize>.goodsSizeListUl li{
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.wraper>.goods>.goodsOption>.quantity{
+     color: #999999;
+     font-size: 14px;
+    margin: 10px 0;
+}
+.wraper>.goods>.goodsOption>.quantity span{
+      color: #333;
+    font-weight: 400;
+  }
+.wraper>.goods>.goodsOption>.addInput{
+    width: 111px;
+    height: 32px;
+}
+.wraper>.goods>.goodsOption>.addInput button{
+    width: 32px;
+    height: 100%;
+    line-height: 32px;
+}
+.wraper>.goods>.goodsOption>.addInput button:nth-child(1){
+      float: left;
+  }
+.wraper>.goods>.goodsOption>.addInput button:nth-child(2){
+    /*float: right;*/
+    /*margin-left: -5px;*/
+}
+.wraper>.goods>.goodsOption>.addInput input{
+    width: 42px;
+    height: 30px;
+    line-height: 32px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.wraper>.goods>.goodsOption>.addButton{
+    margin-top: 20px;
+}
+.wraper>.goods>.goodsOption>.addButton span{
+    width: 248px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 0 16px;
+    margin-bottom: 16px;
+}
+.wraper>.goods>.goodsOption>.addButton span:nth-child(1){
+    color: #042f6a;
+    border: 1px solid #042f6a;
+    background: #fff;
+}
+.wraper>.goods>.goodsOption>.addButton span:nth-child(2){
+    color: #fff;
+    border: 1px solid #042f6a;
+    background: #042f6a;
+}
+
+.goods>.goodsOption>.share{
+    clear: both;
+    /*height: 22px;*/
+position: relative;
+}
+.goods>.goodsOption>.share>.shareOne{
+    width: 51px;
+    height: 20px;
+    margin-left: 520px;
+    color: #999999;
+    /*display: none;*/
+    /*position: relative;*/
+ }
+.goods>.goodsOption>.share>.shareOne i{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    /*position: absolute;*/
+    margin-right: 5px;
+}
+.goods>.goodsOption>.share>.shareTo{
+    width: 190px;
+    margin-left: 420px;
+    /*position: relative;*/
+    display: none;
+}
+.goods>.goodsOption>.share>.shareTo>.oneOf{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /*background-color: blue;*/
+    /*position: absolute;*/
+    margin: 0 4px;
+}
+.goods>.goodsOption>.share>.shareTo>.twoOf{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /*background-color: blue;*/
+    /*position: absolute;*/
+    margin-left:2px;
+}
+.goods>.goodsOption>.share>.shareTo>.threeOf{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /*text-align: center;*/
+    /*background-color: blue;*/
+    /*position: absolute;*/
+    margin-right: 45px;
+    float: right;
+}
+
+
+.wraper .maybeLike{
+    width: 100%;
+
+    text-align: center;
+    margin-top: 24px;
+    font-size: 24px;
+}
